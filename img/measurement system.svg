@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #131523;
+      }
+    </style>
+  </defs>
+  <path id="file-chart-line" class="cls-1" d="M14.414,0H5A3,3,0,0,0,2,3V24H22V7.586ZM15,3.414,18.586,7H15ZM20,22H4V3A1,1,0,0,1,5,2h8V9h7ZM7,16H9v4H7Zm10,4H15V14h2Zm-6-9h2v9H11Z" transform="translate(-2)"/>
+</svg>

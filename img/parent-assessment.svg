@@ -1,0 +1,22 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="24"
+  viewBox="0 0 20 24"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #131523;
+      }
+    </style>
+  </defs>
+  <g id="_01_align_center" src-name="01 align center" transform="translate(-2)">
+    <path
+      id="Path_47498"
+      src-name="Path 47498"
+      class="cls-1"
+      d="M14.414,0H5A3,3,0,0,0,2,3V24H22V7.586ZM15,3.414,18.586,7H15ZM4,22V3A1,1,0,0,1,5,2h8V9h7V22Z"
+    />
+  </g>
+</svg>

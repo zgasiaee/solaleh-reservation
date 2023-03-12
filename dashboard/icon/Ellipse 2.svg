@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>Ellipse 1</title>
+	<defs>
+		<image  width="59" height="59" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAMAAADy+wKBAAAAAXNSR0IB2cksfwAAAIpQTFRFR3BMAAAAAAAAAAAAAAkJAKurAK6uALa2ALGxALOzALe3AIaGAKioAAcHAAMDALOzAKGhAK+vAKqqAKysAKmpAKGhAKWlAJeXAKKiAJeXAGxsAJ+fAJycAJqaAJmZAA4OAJWVAHx8AHZ2AJGRAFRUAIWFAI6OAIuLAHh4AIiIAH9/AIWFAIKCAH5+/e8HgAAAAC50Uk5TAAEDBxBUibTR6/8lcxUL/0D/+v//n//D/+Ve///6/x3/nH//Otr//8D/7v///9kpWqkAAAKNSURBVHicnZeLdqowEEXrJaI8El+ISltTKCqi/v/vXTJ5kEAI2D0d17KwOQmCxI8PFzPn1iHJ5D3xn85UvfU8TutPND009xfLIAyWC3+OvCm2MKN4Eeos4sjj9kioh/wg7OFjzxXNTRIHq5AXZwV/YRATbzCaq9Fy1WgWwnAZDclcXQc2T9jB3C5zNd4Ms2rKZx9ZV2aq56233d25ol62c4vM5xpsdqI2qk2CNci9WLzcjQMnTA/mI/Z3SVNj7DujBjXaJlPYRcaoIZbskySdIu+JHixi0xES6CQxgiE2NnawFmxMU5+0bjNkzyOHY3pUEcdetWxPpA2GWHwcJ4VOjxEx3WyCK/iMWfCsHfL+08XRqD24MxlLDk7XPNCByEGDiw5fdj6hzToh0z0NuLbDfUuXX1To+9zla7iomDA/VejUc4dhubp7+OGcVffqDN1wQuLqaN0zSMoe5tBxc+febrf4dfAji1N05hvpu/TKpJSu+Hzxhf33qtUvtIUTRvL2F25+dWAcNMfmdUVw6XINMtS6fMI4v3W5QneramLVDSzcsudauZYYqftXDLoJvitu0NZqZovM7w0WTC/3UW41xUj7vhJnuhl1/XjcH6ytdW+6LmWs5rJgnD3GyLAZK25hJhfPh60UBZUnuX2o8GCWXD8HedQZhREbT9GZkml5eb5EPaFb6pKqEXcfogRkWtQvG3VOQSW9Bz9fHnGZ5h372XReSrXv8lHDnCkti8qQq4KbVlUtzEBm2TTLq6p+1VWVZ+wtHlalrNsayrSqmixs6WNpQqhzUShspkuQMIdVtY4Fm+kC9k6ZrlWwXLATHbl8d6++1brd5M1V//u/F6T+t98prf6n30faIZxb/wN3CNASIP4jrwAAAABJRU5ErkJggg=="/>
+		<image  width="14" height="24" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAMAAAD9GTxlAAAAAXNSR0IB2cksfwAAAFFQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////CDfnXgAAABt0Uk5TALAQ/+9vvyDAgH8AMNDPQHDwj99Qr6CQYJ/gylAz/wAAAIVJREFUeJxV0FESwiAMBFCaxUINFmmp1d7/oAYBgfy9ZCeTiVITqb6gbwOB2XS0C3CvYlh2D6y+kfkZsFEjG4s9NjLHgIMamV6YEyWS60RmtltDoTRoQ3j/6XdYw4X0kZHkM6PGREmJ5sAVf8sStcZJRUJcviJx4SbFrkO9T/XsXjVAOOgLe5kH0YEqlF4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+	<use id="Layer 1" href="#img2" x="25" y="19"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="997"
+  height="997"
+  viewBox="0 0 997 997"
+>
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.01;
+      }
+
+      .cls-2 {
+        opacity: 0.02;
+      }
+
+      .cls-3 {
+        opacity: 0.04;
+      }
+
+      .cls-4 {
+        opacity: 0.06;
+      }
+    </style>
+  </defs>
+  <g id="Page-1" transform="translate(0.497 0.497)">
+    <g id="Main-page">
+      <g id="Download">
+        <g id="Group-10">
+          <g id="Group-8">
+            <circle
+              id="Oval-2"
+              class="cls-1"
+              cx="498.5"
+              cy="498.5"
+              r="498.5"
+              transform="translate(-0.497 -0.497)"
+            />
+            <circle
+              id="Oval-2-2"
+              src-name="Oval-2"
+              class="cls-2"
+              cx="383"
+              cy="383"
+              r="383"
+              transform="translate(114.503 114.503)"
+            />
+            <circle
+              id="Oval-2-3"
+              src-name="Oval-2"
+              class="cls-3"
+              cx="295"
+              cy="295"
+              r="295"
+              transform="translate(203.503 203.503)"
+            />
+            <circle
+              id="Oval-2-4"
+              src-name="Oval-2"
+              class="cls-4"
+              cx="226"
+              cy="226"
+              r="226"
+              transform="translate(271.503 271.503)"
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

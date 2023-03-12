@@ -1,0 +1,142 @@
+@import 'font.css';
+@import 'right-blocks.css';
+@import 'left-blocks.css';
+@import 'solaleh-rectangle.css';
+@import 'select-register.css';
+
+.parent-info #select-register-rectangle {
+  width: 100%;
+  min-height: 87vh;
+  display: flex;
+  flex-flow: column;
+  text-align: right;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.02);
+  background-color: #fff;
+  margin: 1% 0;
+  padding: 3% 5% 2%;
+  font-family: IRANSansX-Regular;
+  position: relative;
+}
+.parent-info #select-register-rectangle > #select-register-subject {
+  font-size: 1.3em;
+}
+.parent-info #select-register-rectangle > #select-register-talk {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+#special .text-box .title-box {
+  color: #00baba;
+}
+#special {
+  background: url('../image/special-web.png') center / cover;
+  background-size: 120% 140%;
+  background-repeat: no-repeat;
+}
+#normal {
+  background: url('../image/normal-web.png') center / cover;
+  background-repeat: no-repeat;
+  background-size: 120% 140%;
+  margin-bottom: 5em;
+}
+#normal .image-registration {
+  width: 200px;
+  margin-top: -3em;
+  margin-left: -3.5em;
+}
+#special .image-registration {
+  width: 230px;
+  margin-top: -5em;
+  margin-left: -4em;
+}
+.register-box {
+  width: 100%;
+  min-height: 25vh;
+  border-radius: 0.7em;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+.register-box .text-box {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.register-box .text-box .title-box {
+  font-size: 1.4em;
+  margin: 0.5em 0;
+}
+.register-box .text-box .text {
+  font-size: 0.9em;
+}
+#select-register-rectangle .active {
+  border: 2px solid #00baba;
+  box-shadow: 0px 0px 21px 5px rgba(0, 186, 186, 0.3);
+}
+
+@media screen and (max-width: 767px) {
+  .parent-info #select-register-rectangle {
+    border-radius: 0;
+  }
+  .parent-info #select-register-rectangle > #select-register-subject {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  .parent-info #select-register-rectangle > #select-register-talk {
+    font-size: 0.8em;
+  }
+  .register-box .text-box .title-box {
+    font-size: 1.1em;
+  }
+  .register-box .text-box .text {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #normal .image-registration {
+    width: 180px;
+  }
+  #special .image-registration {
+    width: 190px;
+  }
+  .register-box .text-box .title-box {
+    font-size: 1.2em;
+  }
+  .parent-info #select-register-rectangle > #select-register-subject {
+    font-size: 1.1em;
+  }
+  .parent-info #select-register-rectangle > #select-register-talk {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #special {
+    background: url('../image/special-mobile.png') center / cover;
+    background-size: 130% 130%;
+  }
+  #normal {
+    background: url('../image/normal-mobile.png') center / cover;
+    background-size: 130% 130%;
+  }
+  .register-box {
+    padding: 0.5em 1.5em;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .register-box .text-box {
+    width: 100%;
+  }
+  #normal .image-registration {
+    margin-top: 0.5em;
+    margin-left: 0;
+  }
+  #special .image-registration {
+    width: 230px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}

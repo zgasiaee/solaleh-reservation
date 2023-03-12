@@ -1,0 +1,2376 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>فرم ارزیابی کودک</title>
+    <link rel="stylesheet" href="/css/child_assessment_question.css" />
+  </head>
+  <body>
+    <form class="child-assessment-questions-section" action="" method="post">
+      <input
+        type="hidden"
+        name="kid_national_code"
+        value="{{$kid_national_code}}"
+      />
+      <div class="role-bar">
+        <div class="question-number">سوال 1 از 97</div>
+        <progress max="100" value="0" class="progress-parent">
+          <div class="progress-bar">
+            <span class="progress-value"></span>
+          </div>
+        </progress>
+      </div>
+      <table class="question-secion">
+        <thead>
+          <tr id="question-section-column-name">
+            <th scope="col">#</th>
+            <th scope="col">سوال</th>
+            <th scope="col">بله</th>
+            <th scope="col">تاحدودی</th>
+            <th scope="col">خیر</th>
+            <th scope="col">توضیحات</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">1</td>
+            <td>کودکم میتواند به تنهایی دست و صورتش را بشویید و پاک کند؟</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_1" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_1" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_1" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_1"></textarea>
+            </td>
+          </tr>
+           <tr class="question-section-row">
+            <td scope="row" class="question-number-active">2</td>
+            <td>
+              میتواند بصورت مستقل خمیر دندان را بروی مسواک بزند و استفاده کند؟
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_2" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_2" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_2" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_2" id=""></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">3</td>
+            <td>میتواند بصورت مستقل حمام کند و خودش را خشک کند؟</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_3" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_3" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_3" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_3"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">4</td>
+            <td>کودکم میتواند به تنهایی دست و صورتش را بشویید و پاک کند؟</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_4" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_4" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_4" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_4"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">5</td>
+            <td>
+              میتواند بصورت مستقل خمیر دندان را بروی مسواک بزند و استفاده کند؟
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_5" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_5" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_5" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_5"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">6</td>
+            <td>میتواند بصورت مستقل حمام کند و خودش را خشک کند؟</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_6" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_6" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_6" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_6"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">7</td>
+            <td>می تواند با دقت کافی موهای خود را شانه بزند؟</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_7" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_7" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_7" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_7"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">8</td>
+            <td>
+              مفهوم وسایل شخصی را به خوبی دانسته و مضرات استفاده از وسایل شخصی
+              دیگران را می داند و در اکثر اوقات از وسایل شخصی خود استفاده می
+              کند؟
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_8" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_8" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_8" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_8"></textarea>
+            </td>
+          </tr> 
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">9</td>
+            <td>
+              می تواند کارهای ساده مربوط به نظافت یک مکان نظیر کلاس، اتاق
+              یاغذاخوری را انجام دهد (جارو کردن ساده، دستمال کشیدن، جمع آوری
+              پسماند غذا و...)؟
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_9" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_9" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_9" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_9"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">10</td>
+            <td>
+              می تواند هم زمان برای خوردن غذا از قاشق و چنگال استفاده کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_10" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_10" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_10" />
+              </div>
+              
+            </td>
+            <td>
+              <textarea name="text_question_10"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">11</td>
+            <td>
+              می تواند غذای خود را بدون کمک دیگران قطعه قطعه کند. (مانند قطعات
+              مرغ، گوشت و ...)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_11" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_11" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_11" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_11"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">12</td>
+            <td>می تواند با چاقو روی نان، کره و پنیر بمالد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_12" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_12" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_12" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_12"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">13</td>
+            <td>
+              بیش از اندازه غذا در دهانش نمی گذارد که نتواند به راحتی بجود یا از
+              دهانش بریزد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_13" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_13" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_13" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_13"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">14</td>
+            <td>می تواند به هنگام غذا خوردن از دستمال استفاده کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_14" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_14" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_14" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_14"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">15</td>
+            <td>می تواند به صورت مستقل نارنگی و موز را پوست کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_15" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_15" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_15" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_15"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">16</td>
+            <td>
+              می تواند در بطری نوشیدنی را برای خود باز کند و یا نی خود را داخل
+              بطری آب میوه فرو ببرد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_16" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_16" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_16" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_16"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">17</td>
+            <td>
+              غذاهای ناسالم و مضر (نظیر نوشابه، پفک، چیپس و ...) را می شناسد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_17" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_17" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_17" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_17"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">18</td>
+            <td>
+              می تواند لباس هایش را به تنهایی بپوشد یا از تن در آورد و بدون کمک
+              کت یا لباس جلو باز خود را به روش بزرگترها بپوشد (لباسهای بدون
+              دکمه)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_18" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_18" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_18" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_18"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">19</td>
+            <td>می تواند دکمه های رایج لباس ها را باز و بسته کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_19" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_19" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_19" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_19"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">20</td>
+            <td>جلوی لباس خود را از پشت آن تشخیص می دهد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_20" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_20" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_20" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_20"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">21</td>
+            <td>
+              می تواند جورابهایش را به تنهایی و با کمی آزمون و خطا به پا کند .
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_21" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_21" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_21" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_21"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">22</td>
+            <td>
+              می تواند کفشهای بندی و غیر بندی و پوتین را از پا در بیاورد و به
+              صورت مستقل کفشهای غیر بندی خود را به پا کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_22" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_22" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_22" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_22"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">23</td>
+            <td>می تواند زیپ لباس های خود را ببندد و باز کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_23" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_23" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_23" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_23"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">24</td>
+            <td>
+              می تواند بعد از درآوردن لباسش اگر پشت و رو شده بود آن را درست کرده
+              و به شکل معمول تا کرده و مرتب کند و یا به چوب لباسی آویزان کند
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_24" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_24" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_24" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_24"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">25</td>
+            <td>
+              قوانین اصلی ایمنی (نظیر هل دادن، پرتاب کردن اشیا، کشیدن و ...) را
+              می شناسد و با کمی یادآوری پیروی می کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_25" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_25" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_25" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_25"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">26</td>
+            <td>
+              با قوانین مربوط به داخل خودرو آشنا است و با یادآوری آنها را رعایت
+              می کند. (بستن کمربند، بالا بودن پنجره و عدم بیرون بردن دست از آن)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_26" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_26" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_26" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_26"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">27</td>
+            <td>
+              قوانین ابتدایی عبور و مرور در خیابان را می داند و با یادآوری رعایت
+              می کند (نظیر پریدن ناگهانی وسط خیابان، مراقب ماشین بودن، قوانین
+              عبور از خیابان و ...)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_27" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_27" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_27" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_27"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">28</td>
+            <td>
+              با شماره تلفن موارد ضروری (پلیس 110) آشنا است و می تواند از آن
+              استفاده کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_28" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_28" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_28" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_28"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">29</td>
+            <td>
+              با نحوه واکنش در برابر حوادث غیر مترقبه مانند آتش سوزی و زلزله
+              آشنا است و راه های مراقبت از خود را می داند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_29" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_29" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_29" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_29"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">30</td>
+            <td>
+              نحوه برخورد با افراد غریبه را می داند. (نظیر اینکه نباید از آنان
+              چیزی بگیرد، نباید با آنان همراه شود، نباید به سوالات آنها پاسخ
+              دهد، نباید اجازه دهد به او دست بزنند و ...)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_30" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_30" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_30" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_30"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">31</td>
+            <td>
+              مفهوم فضا و اعضای خصوصی را هنگام تعویض لباس و رفتن به دستشویی می
+              داند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_31" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_31" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_31" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_31"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">32</td>
+            <td>
+              بخشهای خصوصی بدنش را می شناسد و می داند در هنگام لمس توسط افراد
+              همسال یا غیر همسال چه واکنشی باید از خود نشان دهد. (ابراز نارضایتی
+              و اعلام به والدین)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_32" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_32" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_32" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_32"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">33</td>
+            <td>
+              گیاهان، حشرات و حیواناتی که می توانند مضر باشند را می شناسد و
+              راههای مراقبت از خود را در برابر آنها می داند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_33" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_33" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_33" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_33"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">34</td>
+            <td>می تواند وسایل شخصی یا وسایل روی میز را مرتب کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_34" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_34" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_34" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_34"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">35</td>
+            <td>
+              در کلاس یا در جمع با اجازه صحبت کرده و یا با اجازه خارج می شود.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_35" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_35" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_35" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_35"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">36</td>
+            <td>
+              به ندرت از چیزی لذت می برد یا فقط از انجام یک فعالیت لذت می برد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_36" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_36" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_36" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_36"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">37</td>
+            <td>
+              ممکن است یک یا چند رفتار وسواس گونه داشته باشد (وسواس در شستن دست،
+              چک کردن وسایل شخصی، پرهیز از کثیف شدن و ...)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_37" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_37" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_37" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_37"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">38</td>
+            <td>نمی تواند آرام بنشیند و بی قرار است.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_38" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_38" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_38" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_38"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">39</td>
+            <td>
+              هیچ دوست صمیمی ندارد (حتی یکنفر نیست که با او بیشتر از بقیه دوست
+              باشد)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_39" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_39" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_39" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_39"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">40</td>
+            <td>
+              نسبت به تبعات کار نادرست خود، بی تفاوت است. (عدم احساس گناه یا
+              پشیمانی)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_40" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_40" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_40" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_40"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">41</td>
+            <td>
+              در هنگام خستگی یا گرسنگی کنترل رفتار خود را به شدت از دست می دهد و
+              اعلام نیاز نیز نمی کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_41" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_41" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_41" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_41"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">42</td>
+            <td>
+              رفتارهایی نظیر ناخن جویدن، شب ادراری، خودلمسی، خیس کردن در طول روز
+              و ... در کودکم دیده می شود
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_42" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_42" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_42" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_42"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">43</td>
+            <td>
+              رفتارهایی نظیر گوشه گیری، گریه های بی مورد، گریه شدید در برابر یک
+              اتفاق ساده یا کوچک و ... در کودکم دیده می شود
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_43" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_43" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_43" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_43"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">44</td>
+            <td>
+              علائم پرخاشگری در کودکم دیده می شود (زد و خوردهای شدید، خود آزاری
+              و ...)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_44" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_44" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_44" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_44"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">45</td>
+            <td>
+              کودکم دوست دارد همیشه در همه کارها بی نقص و کامل باشد و به همین
+              دلیل ممکن است دست به کاری نبرد
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_45" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_45" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_45" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_45"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">46</td>
+            <td>
+              احساس بی ارزشی یا حقارت کرده و به عنوان مثال اعلام می کند که کسی
+              با من دوست نمی شود یا نمی توانم یا ...
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_46" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_46" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_46" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_46"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">47</td>
+            <td>
+              تکانشی و بدون فکر عمل کرده و یا تحریک پذیر است. (رفتارهای
+              غیرمنتظره از خود نشان می دهد)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_47" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_47" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_47" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_47"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">48</td>
+            <td>عصبی و بسیار حساس است.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_48" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_48" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_48" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_48"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">49</td>
+            <td>
+              ترسهای مکرر و متعدد دارد به گونه ای که باعث بروز رفتار غیر عادی در
+              او می شود.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_49" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_49" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_49" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_49"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">50</td>
+            <td>احساس گناه بیش از حد دارد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_50" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_50" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_50" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_50"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">51</td>
+            <td>رفتار یا افکار ترسناک یا خطرناک دارد. (توضیح دهید)</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_51" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_51" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_51" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_51"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">52</td>
+            <td>در مواجهه با ناکامی ها و شکستهای خود، قشقرق راه می اندازد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_52" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_52" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_52" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_52"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">53</td>
+            <td>لجباز یا عبوس است.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_53" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_53" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_53" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_53"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">54</td>
+            <td>دائم در جستجوی کمک بوده و از دیگران کمک می طلبد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_54" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_54" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_54" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_54"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">55</td>
+            <td>
+              داشتن احساسات مختلف در خود را تشخیص نمی دهد و نمی تواند از کلمات
+              برای توصیف حس خود استفاده نماید. (احساسات اصلی نظیر غم، شادی، خشم
+              و ...)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_55" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_55" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_55" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_55"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">56</td>
+            <td>ارتباط چشمی برقرار نمی کند یا در حفظ آن مشکل دارد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_56" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_56" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_56" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_56"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">57</td>
+            <td>
+              در پیوستن به جمع همسالان یا بودن با آنها و داشتن رابطه مثبت مشکل
+              دارد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_57" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_57" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_57" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_57"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">58</td>
+            <td>در اغلب موارد پُز می دهد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_58" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_58" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_58" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_58"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">59</td>
+            <td>در اغلب موارد از تنهایی شِکوه و شکایت می کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_59" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_59" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_59" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_59"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">60</td>
+            <td>به بزرگترها می چسبد و به آنها بسیار وابسته است.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_60" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_60" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_60" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_60"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">61</td>
+            <td>
+              مقررات را درک نمی کند و نمی تواند رفتار خود را با محیط های مختلف
+              سازگار سازد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_61" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_61" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_61" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_61"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">62</td>
+            <td>بسیار دروغ می گوید و در اغلب بازیها تقلب می کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_62" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_62" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_62" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_62"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">63</td>
+            <td>کودکان دیگر از او خوششان نمی آید و از جمع طرد شده است.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_63" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_63" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_63" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_63"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">64</td>
+            <td>از کلمات نامناسب و ناسزا در گفتار خود استفاده می کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_64" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_64" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_64" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_64"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">65</td>
+            <td>اغلب دیگران را مورد تمسخر قرار می دهد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_65" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_65" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_65" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_65"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">66</td>
+            <td>وقتی دیگران با او صحبت می کنند اغلب پاسخ نمی دهد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_66" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_66" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_66" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_66"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">67</td>
+            <td>
+              هنگام صحبت با دیگران با لحن و حجم صدای مناسب و مودبانه صحبت نمی
+              کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_67" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_67" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_67" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_67"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">68</td>
+            <td>هیچ وقت نوبت را رعایت نمی کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_68" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_68" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_68" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_68"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">69</td>
+            <td>نمی تواند در بازی ها یا پروژه های گروهی مشارکت داشته باشد</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_69" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_69" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_69" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_69"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">70</td>
+            <td>
+              به نمایش آموخته های خود علاقه ای نشان نمی دهد و نسبت به تشویق شدن
+              از سوی دیگران واکنشی ندارد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_70" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_70" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_70" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_70"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">71</td>
+            <td>
+              وسایلش را به دیگران قرض نمی دهد و نسبت به مالکیت بر وسایل خود
+              حساسیت بیش از اندازه نشان می دهد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_71" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_71" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_71" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_71"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">72</td>
+            <td>
+              مشکلات میان فردی را با کلمات حل نمی کند و از راهبردهای غیر صلح
+              آمیز استفاده می کند. (قلدری کردن)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_72" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_72" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_72" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_72"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">73</td>
+            <td>
+              می تواند مسافتی 2 متری را لی لی برود بدون آنکه پای دیگرش زمین
+              بخورد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_73" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_73" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_73" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_73"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">74</td>
+            <td>
+              می تواند یک بادکنک را بدون آنکه به زمین بخورد، دو تا سه بار پشت هم
+              با پا به هوا پرتاب کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_74" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_74" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_74" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_74"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">75</td>
+            <td>می تواند روی پنجه و پاشنه به عقب و جلو حرکت کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_75" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_75" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_75" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_75"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">76</td>
+            <td>
+              می تواند 10 ثانیه (ده شماره) و بیشتر با چشم باز روی یک پا بایستد و
+              تعادلش را حفظ کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_76" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_76" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_76" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_76"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">77</td>
+            <td>
+              می تواند با چشم بسته 3 ثانیه (سه شماره) تعادل خود را حفظ کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_77" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_77" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_77" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_77"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">78</td>
+            <td>
+              می تواند هنگامی که توپی از فاصله حداقل یک متر و نیم به سمتش پرتاب
+              می کنیم، با هر دو دست آن را بگیرد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_78" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_78" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_78" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_78"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">79</td>
+            <td>می تواند از روی یک طناب با ارتفاع پانزده سانتی متری بپرد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_79" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_79" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_79" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_79"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">80</td>
+            <td>
+              می تواند حداقل به اندازه دو یا سه بار طناب بازی کند. (با یک یا دو
+              پا)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_80" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_80" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_80" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_80"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">81</td>
+            <td>
+              می تواند توپی را از بالای سرش به سمت فردی که حدود 2 متری او
+              ایستاده پرتاب کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_81" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_81" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_81" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_81"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">82</td>
+            <td>
+              می تواند توپی را از بالای سرش به سمت فردی که حدود 2 متری او
+              ایستاده پرتاب کند.می تواند با حفظ تعادل از روی چوب موازنه یا لبه
+              جدول به ارتفاع ده سانتی متر و طول دو متر تا انتها و بدون افتادن از
+              آن حرکت کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_82" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_82" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_82" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_82"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">83</td>
+            <td>
+              می تواند از ارتفاع هفتاد سانتی متری پریده و زمین نخورد. (با دست یا
+              صورت به زمین نیفتد)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_83" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_83" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_83" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_83"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">84</td>
+            <td>می تواند دو بار دور زمین بازی بدود.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_84" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_84" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_84" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_84"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">85</td>
+            <td>
+              می تواند با قطعات ریز لگو (حداقل 20 قطعه) سازه ای پیچیده (نظیر
+              خانه، ماشین، حیوانات، سازه های تخیلی و ...) بسازد و سپس جدا کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_85" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_85" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_85" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_85"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">86</td>
+            <td>
+              می تواند اشکال هندسی نظیر دایره، مربع، مثلث و لوزی (به ترتیب از
+              ساده به دشوار) را از روی شکل آن در برگه ای دیگر بکشد.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_86" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_86" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_86" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_86"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">87</td>
+            <td>
+              می تواند از روی خط صاف، اشکال هندسی ساده، خط منحنی، خط زیگزاگ و
+              اشکال ساده غیرهندسی (نظیر خانه، درخت و ...) قیچی کند. (به ترتیب از
+              ساده به دشوار)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_87" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_87" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_87" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_87"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">88</td>
+            <td>
+              می تواند خطوطی از بالا به پایین و بالعکس واز چپ به راست و بالعکس و
+              مایل را رسم کند.
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_88" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_88" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_88" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_88"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">89</td>
+            <td>می تواند قوطی کبریت را باز کرده و از داخل آن کبریت بردارد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_89" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_89" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_89" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_89"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">90</td>
+            <td>می تواند با خمیر یا گِل، گلوله یا شکل لوله ای درست کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_90" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_90" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_90" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_90"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">91</td>
+            <td>می تواند دو نقطه را با کشیدن یک خط صاف به هم وصل کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_91" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_91" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_91" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_91"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">92</td>
+            <td>
+              می تواند مداد یا ابزار نوشتنی را بین انگشت شست و اشاره خود نگه
+              دارد. (روش صحیح دست گرفتن مداد را می داند)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_92" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_92" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_92" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_92"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">93</td>
+            <td>مشخص و تثبیت شده که راست دست یا چپ دست است.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_93" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_93" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_93" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_93"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">94</td>
+            <td>مهارت چسباندن دو کاغذ را به یکدیگر دارد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_94" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_94" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_94" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_94"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">95</td>
+            <td>می تواند با چکش میخ متوسطی را داخل چوب نرم بکوبد و فرو کند.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_95" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_95" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_95" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_95"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">96</td>
+            <td>
+              می تواند حداقل سه دستورالعمل متوالی را انجام دهد. (مثلاً برو در
+              کابینت را باز کن، ظرف آب را بردار و گلدانها را آب بده)
+            </td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_96" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_96" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_96" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_96"></textarea>
+            </td>
+          </tr>
+          <tr class="question-section-row">
+            <td scope="row" class="question-number-active">97</td>
+            <td>می تواند به مدت ده دقیقه به داستان و قصه گوش دهد.</td>
+            <td data-label="بله">
+              <div class="checkmark">
+                <input type="radio" value="بله" name="select_question_97" />
+              </div>
+            </td>
+            <td data-label="تا حدودی">
+              <div class="checkmark">
+                <input type="radio" value="تا حدودی" name="select_question_97" />
+              </div>
+            </td>
+            <td data-label="خیر">
+              <div class="checkmark">
+                <input type="radio" value="خیر" name="select_question_97" />
+              </div>
+            </td>
+            <td>
+              <textarea name="text_question_97"></textarea>
+            </td>
+          </tr>
+        </tbody>
+        <p class="alert"></p>
+      </table>
+      <div id="select_level_question">
+        <div id="level_question">
+          <a id="next_question">
+            <figure>
+              <img
+                src="/icon/Arrow-pointing-right.svg"
+                alt="this is no image"
+              />
+            </figure>
+            <p>سوالات بعدی</p>
+          </a>
+          <div id="previous_question">
+            <p>سوالات قبلی</p>
+            <figure>
+              <img src="/icon/Arrow-pointing-left.svg" alt="this is no image" />
+            </figure>
+          </div>
+        </div>
+        <button id="refusal_respond">انصراف از پاسخگویی</button>
+      </div>
+    </form>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/child_assessment.js"></script>
+  </body>
+</html>

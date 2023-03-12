@@ -1,0 +1,116 @@
+@import 'levels.less';
+
+.row {
+  .src-group-container {
+    .src {
+      #margin-title {
+        margin-bottom: 0.8em;
+      }
+      .choose-group {
+        display: flex;
+        align-items: center;
+        margin-top: 0.7em;
+        .question {
+          margin-left: 1.5em;
+          font-size: 0.85em;
+          @media only screen and (max-width: 1100px) {
+            font-size: 0.75em;
+            margin-bottom: 1em;
+            margin-left: 0;
+          }
+        }
+
+        .row-radio {
+          display: flex;
+          width: 35%;
+          .container {
+            display: block;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            padding: 0.8em 0;
+            width: 15%;
+            display: flex;
+            align-items: center;
+            margin: 0 1em;
+            input {
+              position: absolute;
+              opacity: 0;
+              cursor: pointer;
+              &:checked ~ .checkmark {
+                background-color: #fff;
+                border: 2px solid @green;
+                color: @green;
+              }
+              &:checked ~ .checkmark:after {
+                display: block;
+              }
+              &:checked ~ .text {
+                color: @green;
+              }
+            }
+            .checkmark {
+              position: relative;
+              height: 20px;
+              width: 20px;
+              background-color: #fff;
+              border: 2px solid @lightGrey;
+              border-radius: 50%;
+              &::after {
+                content: '';
+                position: absolute;
+                display: none;
+                width: 10px;
+                height: 10px;
+                top: 20%;
+                left: 20%;
+                border-radius: 50%;
+                background: @green;
+                @media only screen and (max-width: 1200px) {
+                  height: 8px;
+                  width: 8px;
+                  top: 17%;
+                  left: 17%;
+                }
+              }
+              @media only screen and (max-width: 1200px) {
+                height: 16px;
+                width: 16px;
+              }
+            }
+            .text {
+              font-size: 0.9em;
+              position: absolute;
+              left: -20px;
+              left: -15px;
+              width: 80%;
+              @media only screen and (max-width: 768px) {
+                font-size: 0.75em;
+              }
+              @media only screen and (max-width: 1200px) and (min-width: 768px) {
+                font-size: 0.8em;
+              }
+            }
+            @media only screen and (max-width: 1100px) {
+              margin-right: 0;
+              margin-left: 2.3em;
+            }
+            @media only screen and (max-width: 500px) {
+              width: 25%;
+            }
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 100%;
+          }
+          @media only screen and (max-width: 500px) {
+            flex-wrap: wrap;
+          }
+        }
+        @media only screen and (max-width: 1100px) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+}

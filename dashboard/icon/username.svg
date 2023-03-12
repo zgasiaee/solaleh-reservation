@@ -1,0 +1,11 @@
+<svg id="_01_align_center" data-name="01 align center" xmlns="http://www.w3.org/2000/svg" width="19.435" height="25.913" viewBox="0 0 19.435 25.913">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7a92af;
+      }
+    </style>
+  </defs>
+  <path id="Path_1" data-name="Path 1" class="cls-1" d="M22.435,24.8H20.275V19.352a3.2,3.2,0,0,0-3.193-3.193H8.352a3.2,3.2,0,0,0-3.193,3.193V24.8H3V19.352A5.359,5.359,0,0,1,8.352,14h8.731a5.359,5.359,0,0,1,5.352,5.352Z" transform="translate(-3 1.116)"/>
+  <path id="Path_2" data-name="Path 2" class="cls-1" d="M12.478,12.957a6.478,6.478,0,1,1,6.478-6.478A6.478,6.478,0,0,1,12.478,12.957Zm0-10.8A4.319,4.319,0,1,0,16.8,6.478,4.319,4.319,0,0,0,12.478,2.159Z" transform="translate(-2.761)"/>
+</svg>

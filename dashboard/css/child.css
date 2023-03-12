@@ -1,0 +1,295 @@
+@import 'font.css';
+@import 'right-blocks.css';
+@import 'left-blocks.css';
+@import 'solaleh-rectangle.css';
+@import 'select-register.css';
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.parent-info .child-rectangle {
+  width: 100%;
+  min-height: 87vh;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.02);
+  background-color: #fff;
+  font-family: IRANSansX-Regular;
+  margin: 0.6em 0;
+  padding: 2em 2.5em;
+  position: relative;
+}
+.parent-info .child-rectangle > .child-profile-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.parent-info .child-rectangle > .child-profile {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  direction: rtl;
+  margin-top: 1em;
+}
+.choose-group {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+}
+.question {
+  margin-left: 1.5em;
+  font-size: 0.95em;
+}
+.row-radio {
+  display: flex;
+  width: 35%;
+}
+.container {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.8em 0;
+  width: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1em;
+}
+.radio {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.radio:checked ~ .checkmark {
+  background-color: #fff;
+  border: 2px solid #00baba;
+  color: #00baba;
+}
+.radio:checked ~ .checkmark:after {
+  display: block;
+}
+.radio:checked ~ .text {
+  color: #00baba;
+}
+.checkmark {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid #d7dbec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkmark::after {
+  content: '';
+  display: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00baba;
+  margin: 0 auto;
+}
+.text {
+  font-size: 0.9em;
+  position: absolute;
+  left: -20px;
+  left: -15px;
+  width: 80%;
+}
+.select-box-container {
+  width: 48%;
+  height: 55px;
+  border: 2px solid #d7dbec;
+  border-radius: 0.7em;
+  padding: 0.4em 0;
+  font-size: 0.85em;
+  margin: 0.7em 0;
+}
+.select-box-container .legend {
+  margin: 0 1em;
+  padding: 0 0.5em;
+  font-size: 0.9em;
+}
+.select-box-container .legend span {
+  color: #e12d2d;
+}
+.select-box-container .input {
+  width: 100%;
+  border: none;
+  padding: 0 1.7em;
+  padding-bottom: 0.4em;
+  font-family: IRANSansX-Regular;
+}
+.full {
+  width: 100%;
+}
+.select-box-container .input::placeholder {
+  color: #d7dbec;
+  font-family: IRANSansX-Regular;
+}
+.select-box-container .input:focus {
+  outline: none;
+}
+.select-box-container .show-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.7em;
+  padding-bottom: 0.4em;
+  cursor: pointer;
+}
+.select-box-container .show-select .place-holder {
+  color: #d7dbec;
+  font-size: 0.88em;
+}
+.select-box-container .show-select .select-icon {
+  width: 6px;
+}
+.select-box-container .non-parent-select {
+  position: relative;
+  display: none;
+  max-height: 138px;
+  overflow-y: auto;
+  z-index: 9999;
+  border: 2px solid #d7dbec;
+  border-radius: 0.5em;
+  margin: 0.8em -0.15em 2em -0.15em;
+  background-color: #fff;
+}
+.select-box-container .non-parent-select .select-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6em 0;
+}
+.select-box-container .non-parent-select .select-box .option {
+  padding: 0.6em 1.9em;
+  font-size: 0.87em;
+  cursor: pointer;
+}
+.select-box-container .non-parent-select .select-box .option:hover {
+  background-color: #f4f7fc;
+}
+.tripple-select-box-container {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+}
+.tripple-select-box-container .select-box-container {
+  width: 31%;
+}
+.double-select-box-container {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+}
+
+.double-select-box-container .select-box-container {
+  width: 48%;
+}
+.last-item {
+  margin-bottom: 5em;
+}
+
+@media only screen and (max-width: 767px) {
+  .parent-info #solaleh-rectangle,
+  .parent-info .child-rectangle {
+    border-radius: 0;
+  }
+  .checkmark {
+    height: 16px;
+    width: 16px;
+  }
+  .checkmark::after {
+    height: 8px;
+    width: 8px;
+    top: 17%;
+    left: 17%;
+  }
+  .address-box .address {
+    flex-direction: column;
+  }
+  .address-box .address .address-textarea {
+    width: 100%;
+    margin-top: 0.5em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .question {
+    font-size: 0.9em;
+    margin-top: 0.8em;
+    margin-left: 0;
+  }
+  .top-level {
+    font-size: 0.7em;
+    padding: 1.4em 0;
+  }
+  .choose-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .row-radio {
+    width: 100%;
+  }
+  .container {
+    margin-right: 0;
+    margin-left: 2.3em;
+  }
+  .text {
+    font-size: 0.85em;
+  }
+  .parent-info .child-rectangle > .child-profile {
+    flex-direction: column;
+  }
+  .select-box-container {
+    width: 100%;
+  }
+  .double-select-box-container {
+    width: 100%;
+  }
+  .tripple-select-box-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .parent-info .child-rectangle > .child-profile-name {
+    font-size: 1em;
+  }
+  .level-parent:nth-child(2) .top-level ,  .level-parent:nth-child(3) .top-level{
+    margin-right: 1em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 25%;
+  }
+  .top-level {
+    font-size: 0.65em;
+    padding: 1.6em 0;
+  }
+  .select-box-container .legend {
+    font-size: 0.8em;
+  }
+  .question {
+    font-size: 0.75em;
+  }
+  .select-box-container .show-select  {
+    padding-bottom: 0;
+  }
+  .select-box-container .show-select .place-holder {
+    font-size: 0.8em;
+  }
+  .select-box-container .input::placeholder {
+    font-size: 0.85em;
+  }
+  .parent-info .child-rectangle {
+    padding: 1em 1.8em;
+  }
+}

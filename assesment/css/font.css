@@ -1,0 +1,24 @@
+@font-face {
+  font-family: IRANSansX-Bold;
+  src: url('../font//woff2/IRANSansX-Bold.woff2') format('woff2'), url('../font//woff2/IRANSansX-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansX-Black;
+  src: url('../font//woff2/IRANSansX-Black.woff2') format('woff2'), url('../font//woff2/IRANSansX-Black.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansX-Light;
+  src: url('../font//woff2/IRANSansX-Light.woff2') format('woff2'), url('../font//woff2/IRANSansX-Light.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansX-Medium;
+  src: url('../font//woff2/IRANSansX-Medium.woff2') format('woff2'), url('../font//woff2/IRANSansX-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansX-Regular;
+  src: url('../font//woff2/IRANSansX-Regular.woff2') format('woff2'), url('../font//woff2/IRANSansX-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansX-Thin;
+  src: url('../font//woff2/IRANSansX-Thin.woff2') format('woff2'), url('../font//woff2/IRANSansX-Thin.woff') format('woff');
+}

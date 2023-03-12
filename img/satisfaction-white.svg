@@ -1,0 +1,27 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="24"
+  viewBox="0 0 20 24"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g
+    id="_01_align_center"
+    src-name="01 align center"
+    transform="translate(-2 3)"
+  >
+    <path
+      id="Path_47497"
+      src-name="Path 47497"
+      class="cls-1"
+      d="M22,4.145,17.986,0H10A3,3,0,0,0,7,3V4H5A3,3,0,0,0,2,7V24H18V19h4ZM16,22H4V7A1,1,0,0,1,5,6H7V19h9ZM9,17V3a1,1,0,0,1,1-1h6V6h4V17Z"
+      transform="translate(0 -3)"
+    />
+  </g>
+</svg>

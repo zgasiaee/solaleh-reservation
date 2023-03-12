@@ -1,0 +1,120 @@
+@import 'formTitle.less';
+
+.container {
+  .row {
+    .src-group-container {
+      .form-group {
+        min-height: 30vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .border {
+          border: 1px solid @darkGrey;
+          width: 85%;
+          margin-top: 2em;
+          margin-bottom: 0.5em;
+          .title {
+            margin-top: 1.3em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.2em;
+          }
+          .satisfacation {
+            padding: 1em 0;
+            display: flex;
+            flex-direction: column;
+            font-size: 0.85em;
+            width: 93%;
+            border-bottom: 1px solid @lightGrey;
+            margin: 0 auto;
+            &:last-child {
+              border-bottom: none;
+              padding-bottom: 5em;
+            }
+            .title-satisfacation {
+              margin-bottom: 1em;
+              font-size: 1.1em;
+            }
+            .title-health {
+              margin-bottom: 1em;
+              font-size: 1.3em;
+              text-align: center;
+              text-decoration: underline;
+              text-underline-offset: 0.8em;
+            }
+            .space {
+              margin: 0.7em 0;
+            }
+            .rule {
+              margin-bottom: 0.4em;
+            }
+            #margin1 {
+              margin-top: 1em;
+            }
+            #margin2 {
+              margin: 2em 0;
+            }
+            .line-item {
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              margin: 0.5em 0;
+              .option {
+                width: calc(100% / 4);
+              }
+            }
+            .line {
+              margin: 0.5em 0;
+              word-break: break-word;
+              line-height: 1.9em;
+              .item {
+                display: inline-flex;
+                word-break: normal;
+                p {
+                  padding-right: 1em;
+                }
+                .radio-container {
+                  display: flex;
+                  margin: 0 0.5em;
+                  .radio {
+                    margin-right: 0.3em;
+                    width: 15px;
+                    @media print {
+                      width: 12px;
+                    }
+                  }
+                }
+              }
+            }
+            .end-line {
+              display: flex;
+              width: 100%;
+              justify-content: flex-end;
+              margin-top: 3em;
+            }
+            @media print {
+              font-size: 0.73em;
+            }
+          }
+        }
+        @media print {
+          font-size: 0.95em;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        margin: 0.8em;
+      }
+    }
+  }
+}
+#form {
+  width: 100%;
+  margin: 0;
+  .row {
+    width: 100%;
+    position: static;
+  }
+}

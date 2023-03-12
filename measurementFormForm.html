@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/measurementForm-1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/common.js" async></script>
+    <title>فرم سامانه سنجش </title>
+</head>
+<body>
+    
+    <div class="container" id="form">
+        <div class="row">
+          <div class="src-group-container">
+            <div class="form-group">
+                <div class="border">
+                    <div class="title">
+                        <span>فرم مشخصات نو آموزان بدو ورود به دبستان جهت ثبت در سامانه سنجش</span>
+                        <span>دبستان و پیش دبستانی پسرانه</span>
+                    </div>
+                    <div class="row-info">
+                        <div class="row-title">
+                          <label class="bold"> مشخصات فردی</label>
+                          <span>کدملی دانش آموز:</span>
+                        </div>
+                        <div class="line space-between">
+                            <div class="item">
+                              <label>نام:</label>
+                               <p></p>
+                            </div>
+                            <div class="item">
+                              <label>نام خانوادگی:</label>
+                              <p></p>
+                            </div>
+                            <div class="item">
+                              <label>تاریخ تولد:</label>
+                              <p></p>
+                            </div>
+                            <div class="item">جنسیت:
+                                <div class="radio-container">مذکر<input type="radio" class="radio" name="group1[]" /></div>
+                                <div class="radio-container">مونث<input type="radio" class="radio" name="group1[]" /></div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="item">سابقه آموزشی پیش دبستانی دارد؟
+                                <div class="radio-container">دارد<input type="radio" class="radio" name="group2[]" /></div>
+                                <div class="radio-container">ندارد<input type="radio" class="radio" name="group2[]" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-info">
+                        <div class="line inline-flex">
+                            <div class="item">
+                                <label class="bold">وضعیت بیمه پایه:</label>
+                                <div class="radio-container">دارد<input type="radio" class="radio" name="group3[]" /></div>
+                                <div class="radio-container">ندارد<input type="radio" class="radio" name="group3[]" /></div>
+                            </div>
+                            <div class="item">
+                              <label class="bold">نوع بیمه:</label>
+                              <div class="radio-container">تامین اجتماعی<input type="radio" class="radio" name="group5[]" /></div>
+                              <div class="radio-container">خدمات درمانی<input type="radio" class="radio" name="group5[]" /></div>
+                              <div class="radio-container">نیروهای مسلح<input type="radio" class="radio" name="group5[]" /></div>
+                              <div class="radio-container">کمیته امداد<input type="radio" class="radio" name="group5[]" /></div>
+                              <div class="radio-container">سایر<input type="radio" class="radio" name="group5[]" /></div>
+                          </div>
+                           
+                        </div>
+                        <div class="line">
+                          <div class="item">بیمه تکمیلی:
+                            <div class="radio-container">دارد<input type="radio" class="radio" name="group4[]" /></div>
+                            <div class="radio-container">ندارد<input type="radio" class="radio" name="group4[]" /></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row-info">
+                        <div class="line">
+                          <div class="item">
+                            <label class="bold">وضعیت زبان:</label>
+                            <div class="radio-container">فارسی<input type="radio" class="radio" name="group7[]" /></div>
+                            <div class="radio-container">سایر زبان ها(ترکی،لری و...)<input type="radio" class="radio" name="group7[]" /></div>
+                          </div>
+                        </div>
+                        <div class="line">
+                            <div class="item">ملیت فرد:
+                                <div class="radio-container">ایرانی<input type="radio" class="radio" name="group6[]" /></div>
+                                <div class="radio-container">غیر ایرانی<input type="radio" class="radio" name="group6[]" /></div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="item">دست غالب:
+                                <div class="radio-container">راست دست<input type="radio" class="radio" name="group8[]" /></div>
+                                <div class="radio-container">چپ دست<input type="radio" class="radio" name="group8[]" /></div>
+                            </div>
+                        </div>
+                        <div class="line">
+                          <div class="item">دین:
+                              <div class="radio-container">اسلام<input type="radio" class="radio" name="group9[]" /></div>
+                              <div class="radio-container">سایر<input type="radio" class="radio" name="group9[]" /></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row-info">
+                        <div class="row-title">
+                          <label class="bold">وضعیت تحصیلی <span>(کلاس اول جامانده از سنجش سال قبل)</span></label>
+                        </div>
+                        <div class="line">
+                            <div class="item">وضعیت نوآموز:
+                                <div class="radio-container">خیلی خوب<input type="radio" class="radio" name="group10[]" /></div>
+                                <div class="radio-container">خوب<input type="radio" class="radio" name="group10[]" /></div>
+                                <div class="radio-container">قابل قبول<input type="radio" class="radio" name="group10[]" /></div>
+                                <div class="radio-container">نیاز به تلاش بیشتر<input type="radio" class="radio" name="group10[]" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-info">
+                        <div class="row-title">
+                           <label class="bold">مشخصات پدر</label>
+                        </div>
+                        <div class="line space-between">
+                            <div class="item">
+                                <label>نام پدر:</label>
+                                <p></p>
+                            </div>
+                            <div class="item">
+                               <label>نام خانوادگی:</label>
+                               <P></P>
+                            </div>
+                            <div class="item">در قید حیات؟
+                              <div class="radio-container">هست<input type="radio" class="radio" name="group11[]" /></div>
+                              <div class="radio-container">نیست<input type="radio" class="radio" name="group11[]" /></div>
+                            </div>
+                            <div class="item padding-left">
+                               <label>تاریخ تولد:</label>
+                               <p></p>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="item">تحصیلات پدر: 
+                                <div class="radio-container">بی سواد<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">ابتدایی<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">راهنمایی<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">دبیرستان<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">دیپلم<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">فوق دیپلم<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">لیسانس<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">فوق لیسانس<input type="radio" class="radio" name="group12[]" /></div>
+                                <div class="radio-container">دکتری<input type="radio" class="radio" name="group12[]" /></div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="item">شغل پدر: 
+                                <div class="radio-container">شاغل<input type="radio" class="radio" name="group13[]" /></div>
+                                <div class="radio-container">بیکار<input type="radio" class="radio" name="group13[]" /></div>
+                                <div class="radio-container">بازنشسته<input type="radio" class="radio" name="group13[]" /></div>
+                                <div class="radio-container">مستمری بگیران<input type="radio" class="radio" name="group13[]" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-info">
+                      <div class="row-title">
+                         <label class="bold">مشخصات مادر</label>
+                      </div>
+                      <div class="line space-between">
+                          <div class="item">
+                              <label>نام مادر:</label>
+                              <p></p>
+                          </div>
+                          <div class="item">
+                             <label>نام خانوادگی:</label>
+                             <P></P>
+                          </div>
+                          <div class="item">در قید حیات؟
+                            <div class="radio-container">هست<input type="radio" class="radio" name="group11[]" /></div>
+                            <div class="radio-container">نیست<input type="radio" class="radio" name="group11[]" /></div>
+                          </div>
+                          <div class="item padding-left">
+                             <label>تاریخ تولد:</label>
+                             <p></p>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <div class="item">تحصیلات مادر: 
+                              <div class="radio-container">بی سواد<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">ابتدایی<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">راهنمایی<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">دبیرستان<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">دیپلم<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">فوق دیپلم<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">لیسانس<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">فوق لیسانس<input type="radio" class="radio" name="group12[]" /></div>
+                              <div class="radio-container">دکتری<input type="radio" class="radio" name="group12[]" /></div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <div class="item">شغل مادر: 
+                              <div class="radio-container">شاغل<input type="radio" class="radio" name="group13[]" /></div>
+                              <div class="radio-container">بیکار<input type="radio" class="radio" name="group13[]" /></div>
+                              <div class="radio-container">بازنشسته<input type="radio" class="radio" name="group13[]" /></div>
+                              <div class="radio-container">مستمری بگیران<input type="radio" class="radio" name="group13[]" /></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row-info">
+                      <div class="row-title">
+                        <label class="bold">سایر مشخصات خانواده</label>
+                      </div>
+                      <div class="line">
+                          <div class="item">آیا والدین نسبت خویشاوندی دارند؟
+                              <div class="radio-container">بله<input type="radio" class="radio" name="group17[]" /></div>
+                              <div class="radio-container">خیر<input type="radio" class="radio" name="group17[]" /></div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <div class="item" id="go-first">
+                              <div class="radio-container number">درجه 1(خاله زاده-دایی زاده-عمه زاده-عمو زاده)<input type="radio" class="radio" name="group18[]" /></div>
+                              <div class="radio-container number">درجه2 (نوه خاله-نوه عمو و...)<input type="radio" class="radio" name="group18[]" /></div>
+                              <div class="radio-container number">درجه 3(سایر)<input type="radio" class="radio" name="group18[]" /></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row-info">
+                      <div class="line">
+                          <div class="item">آیا والدین متارکه کرده اند؟
+                              <div class="radio-container">بله<input type="radio" class="radio" name="group19[]" /></div>
+                              <div class="radio-container">خیر<input type="radio" class="radio" name="group19[]" /></div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <div class="item">با چه کسی زندگی می کند؟
+                              <div class="radio-container">زندگی با مادر<input type="radio" class="radio" name="group20[]" /></div>
+                              <div class="radio-container">زندگی با پدر<input type="radio" class="radio" name="group20[]" /></div>
+                              <div class="radio-container">سایر خویشاوندان<input type="radio" class="radio" name="group20[]" /></div>
+                              <div class="radio-container">بهزیستی<input type="radio" class="radio" name="group20[]" /></div>
+                              <div class="radio-container">دیگران<input type="radio" class="radio" name="group20[]" /></div>
+                          </div>
+                      </div>
+                      <div class="line inline-flex">
+                        <div class="item">
+                           <label> تعداد اعضا خانواده:</label>
+                           <p></p>
+                        </div>
+                        <div class="item padding-right">
+                           <label> فرزند چندم خانواده هستید؟</label>
+                           <p></p>
+                        </div>
+                     </div>
+                     <div class="line space-between">
+                      <div class="item">محل سکونت:
+                        <div class="radio-container">روستا<input type="radio" class="radio" name="group21[]"  /></div>
+                        <div class="radio-container">شهر<input type="radio" class="radio" name="group21[]" /></div>
+                    </div>
+                    <div class="item">
+                       <label>کد پستی:</label>
+                       <p></p>
+                    </div>
+                    <div class="item">
+                       <label>شماره تلفن ضروری:</label>
+                       <p></p>
+                    </div>
+                    <div class="item padding-left">
+                       <label>منزل:</label>
+                       <p></p>
+                    </div>
+                   </div>
+                   <div class="line last">
+                     <div class="item">
+                       <label>آدرس:</label>
+                       <p></p>
+                      </div>
+                   </div>
+                    </div>
+                </div>
+                <div class="bottom-row">
+                    <span>صحت اطلاعات فوق را تایید می نمایم</span>
+                    <span>نام و نام خانوادگی</span>
+                    <span>تاریخ</span>
+                    <span class="last-item">امضا</span>
+                </div> 
+            </div>
+          </div>
+    </div>
+
+</body>
+</html>

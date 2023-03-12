@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="189.332" height="75.651" viewBox="0 0 189.332 75.651">
+    <defs>
+        <linearGradient id="gln4071sab" x1=".5" x2=".488" y2="1.532" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00baba"/>
+            <stop offset="1" stop-color="#005d5d"/>
+        </linearGradient>
+        <filter id="615tsf5ufa" x="0" y="0" width="189.332" height="75.651" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".051"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="Group 11651">
+        <g style="filter:url(#615tsf5ufa)">
+            <path data-name="Path 47312" d="M6.369 0h158.594c3.518 0 6.369 3.635 6.369 8.12v41.411c0 4.485-2.852 8.12-6.369 8.12H6.369C2.852 57.651 0 54.016 0 49.531V8.12C0 3.635 2.852 0 6.369 0z" transform="translate(9.001 9)" style="fill:url(#gln4071sab)"/>
+        </g>
+        <text data-name="مرحله ی بعدی" transform="translate(83.521 40)" style="font-size:17px;font-family:IRANSansX-Medium,IRANSansX;font-weight:500;letter-spacing:-.02em;fill:#fff"><tspan x="-47.668" y="0">مرحله ی بعدی</tspan></text>
+        <path d="M21.266 13.4a2.467 2.467 0 0 0-.728-1.727l-5.291-5.3a1.234 1.234 0 1 0-1.739 1.751l4.058 4.045H5.233a1.233 1.233 0 0 0 0 2.467h12.333l-4.058 4.058a1.234 1.234 0 1 0 1.739 1.751l5.291-5.3a2.467 2.467 0 0 0 .728-1.745z" transform="translate(137.8 24.597)" style="fill:#fff"/>
+    </g>
+</svg>

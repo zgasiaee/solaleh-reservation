@@ -1,0 +1,46 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 32 32"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfc3c7;
+      }
+
+      .cls-2 {
+        fill: #ff6a6a;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_11565" src-name="Group 11565" transform="translate(-1537 -41)">
+    <path
+      id="Notification_Icon"
+      src-name="Notification Icon"
+      class="cls-1"
+      d="M8.625,20.125h5.749a2.875,2.875,0,1,1-5.749,0ZM1.437,18.688a1.437,1.437,0,0,1,0-2.875h.719A6.258,6.258,0,0,0,4.312,11.5V7.188A7.119,7.119,0,0,1,11.5,0a7.118,7.118,0,0,1,7.186,7.188V11.5a6.254,6.254,0,0,0,2.157,4.313h.719a1.437,1.437,0,0,1,0,2.875Z"
+      transform="translate(1537 50)"
+    />
+    <g
+      id="Notification_Badge"
+      src-name="Notification Badge"
+      class="cls-2"
+      transform="translate(1553 43)"
+    >
+      <circle class="cls-3" cx="7" cy="7" r="7" />
+      <circle class="cls-4" cx="7" cy="7" r="8" />
+    </g>
+  </g>
+</svg>

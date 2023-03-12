@@ -1,0 +1,231 @@
+@import 'font.css';
+@import 'right-blocks.css';
+@import 'left-blocks.css';
+@import 'solaleh-rectangle.css';
+@import 'select-register.css';
+
+.parent-info > #manager-interview-rectangle,
+.parent-info > #child-interview-rectangle,
+.parent-info > #parent-interview-rectangle {
+  width: 100%;
+  min-height: 87vh;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.02);
+  margin: 1% 0;
+  text-align: right;
+  padding: 3% 5%;
+  font-family: IRANSansX-Regular;
+  position: relative;
+}
+
+.parent-info > #parent-interview-rectangle .status-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.parent-info > #parent-interview-rectangle #error-status {
+  margin: 3em 0;
+}
+
+.parent-info > #parent-interview-rectangle .status-box img {
+  width: 130px;
+}
+
+.parent-info > #parent-interview-rectangle .status-box span {
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+
+.parent-info > #parent-interview-rectangle .status-box .success-text-shadow {
+  color: #00baba;
+  text-shadow: 0 0 20px #00baba;
+}
+
+.parent-info > #parent-interview-rectangle .status-box .error-text-shadow {
+  color: #ba004a;
+  text-shadow: 0 0 20px #ba004a;
+}
+
+.parent-info > #parent-interview-rectangle .status-box p {
+ text-align: center;
+}
+
+.parent-info > #manager-interview-rectangle > #manager-interview-subject,
+.parent-info > #child-interview-rectangle > #child-interview-subject,
+.parent-info > #parent-interview-rectangle > #parent-interview-subject {
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 1%;
+  font-family: IRANSansX-DemiBold;
+}
+
+.parent-info > #manager-interview-rectangle > #manager-interview-text > p,
+.parent-info > #child-interview-rectangle > #child-interview-text > p,
+.parent-info > #parent-interview-rectangle > #parent-interview-text > p {
+  font-size: 1em;
+  margin: 1% 0 0;
+}
+
+.parent-info > #manager-interview-rectangle > #manager-interview-img,
+.parent-info > #child-interview-rectangle > #child-interview-img,
+.parent-info > #parent-interview-rectangle > #parent-interview-img {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.parent-info > #manager-interview-rectangle > #manager-interview-img > img,
+.parent-info > #child-interview-rectangle > #child-interview-img > img,
+.parent-info > #parent-interview-rectangle > #parent-interview-img > img {
+  width: 60%;
+}
+
+
+.parent-info
+  > #movie-see-form-rectangle
+  > #movie-form-text
+  > #movie-see-message-mother:nth-child(3)
+  > div:nth-child(2) {
+  width: 70%;
+  height: 0.5vw;
+  margin: 2% auto;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #b3b4bb;
+}
+
+.parent-info
+  > #movie-see-form-rectangle
+  > #movie-form-text
+  > #movie-see-message-mother:nth-child(3)
+  > div:nth-child(3)
+  > ul {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 2% auto;
+  color: #7e84a3;
+  font-size: 1vw;
+  font-family: IRANSansX-Medium;
+}
+
+@media only screen and (max-width: 1200px) {
+  .parent-info > #manager-interview-rectangle > #manager-interview-subject,
+  .parent-info > #child-interview-rectangle > #child-interview-subject,
+  .parent-info > #parent-interview-rectangle > #parent-interview-subject {
+    font-size: 1.1em;
+  }
+
+  .parent-info > #manager-interview-rectangle > #manager-interview-text > p,
+  .parent-info > #child-interview-rectangle > #child-interview-text > p,
+  .parent-info > #parent-interview-rectangle > #parent-interview-text > p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+  .parent-info > #manager-interview-rectangle,
+  .parent-info > #child-interview-rectangle,
+  .parent-info > #parent-interview-rectangle {
+    min-height: 90vh;
+  }
+  .parent-info > #manager-interview-rectangle > #manager-interview-img,
+  .parent-info > #child-interview-rectangle > #child-interview-img,
+  .parent-info > #parent-interview-rectangle > #parent-interview-img {
+    margin-top: 5em;
+  }
+  .parent-info > #manager-interview-rectangle > #manager-interview-img > img,
+  .parent-info > #child-interview-rectangle > #child-interview-img > img,
+  .parent-info > #parent-interview-rectangle > #parent-interview-img > img {
+  width: 80%;
+ }
+ .parent-info > #parent-interview-rectangle .status-box img {
+  width: 100px;
+}
+
+.parent-info > #parent-interview-rectangle .status-box span {
+  font-size: 1.35em;
+}
+.parent-info > #parent-interview-rectangle .status-box p {
+ font-size: 0.8em;
+ }
+ .parent-info > #parent-interview-rectangle #error-status {
+  margin: 5em 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .register-info > .parent-info {
+    width: 100%;
+  }
+
+  .parent-info #solaleh-rectangle,
+  .parent-info #manager-interview-rectangle,
+  .parent-info #child-interview-rectangle,
+  .parent-info #parent-interview-rectangle {
+    border-radius: 0;
+  }
+
+  .parent-info > #manager-interview-rectangle,
+  .parent-info > #child-interview-rectangle,
+  .parent-info > #parent-interview-rectangle {
+    margin: 2% 0;
+  }
+
+  .parent-info > #manager-interview-rectangle > #manager-interview-subject,
+  .parent-info > #child-interview-rectangle > #child-interview-subject,
+  .parent-info > #parent-interview-rectangle > #parent-interview-subject {
+    padding: 5% 10% 0;
+    font-size: 1.2em;
+  }
+
+  .parent-info > #manager-interview-rectangle > #manager-interview-text,
+  .parent-info > #child-interview-rectangle > #child-interview-text,
+  .parent-info > #parent-interview-rectangle > #parent-interview-text {
+    padding: 1% 8%;
+  }
+
+  .parent-info > #manager-interview-rectangle > #manager-interview-text > p,
+  .parent-info > #child-interview-rectangle > #child-interview-text > p,
+  .parent-info > #parent-interview-rectangle > #parent-interview-text > p {
+    font-size: 1em;
+  }
+
+  .parent-info > #manager-interview-rectangle > #manager-interview-img > img,
+  .parent-info > #child-interview-rectangle > #child-interview-img > img,
+  .parent-info > #parent-interview-rectangle > #parent-interview-img > img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .parent-info > #parent-interview-rectangle .status-box {
+    margin: 3em 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parent-info > #manager-interview-rectangle > #manager-interview-subject,
+  .parent-info > #child-interview-rectangle > #child-interview-subject,
+  .parent-info > #parent-interview-rectangle > #parent-interview-subject {
+    font-size:1.1em;
+  }
+
+  .parent-info > #manager-interview-rectangle > #manager-interview-text > p,
+  .parent-info > #child-interview-rectangle > #child-interview-text > p,
+  .parent-info > #parent-interview-rectangle > #parent-interview-text > p {
+    font-size: 0.85em;
+  }
+  .parent-info > #parent-interview-rectangle .status-box img {
+    width: 70px;
+  }
+  .parent-info > #parent-interview-rectangle .status-box span {
+    font-size: 1.4em;
+  }
+  .parent-info > #parent-interview-rectangle .status-box p {
+   font-size: 0.85em;
+   }
+  
+}

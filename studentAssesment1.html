@@ -1,0 +1,2106 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/studentAssesment1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/studentAsessment.js" async></script>
+    <title>ارزیابی دانش آموز</title>
+</head>
+<body>
+    
+    <div class="container">
+      <div class="column">
+        <div class="info-group">
+          <div class="profile-container">
+            <img src="img/profile.svg" class="profile" alt="profile" />
+          </div>
+          <span>امیر حسین اکبری</span>
+          <p class="email">zgasiaeee@gmail.com</p>
+          <div class="buttons">
+            <a href="registrationList.html" class="item-button normal">
+              <img src="img/user-time-black.svg" alt="user-time" />
+              ثبت نامی ها
+            </a>
+            <a href="childFile.html" class="item-button normal">
+              <img src="img/search-alt.svg" alt="search-alt" />
+              پرونده کودک
+            </a>
+          </div>
+          <span class="edit-link">ویرایش پروفایل</span>
+        </div>
+        <nav class="navbar">
+          <div class="nav-item-container">
+            <a href="onlineInterview.html" class="nav-item">
+              <img src="img/online-interview.svg" alt="online-interview" />
+              مصاحبه آنلاین
+            </a>
+            <a href="personInterview.html" class="nav-item">
+              <img src="img/person-interview.svg" alt="person-interview" />
+              مصاحبه حضوری
+            </a>
+            <a href="studentAssesment.html" class="active">
+              <img src="img/student-assessment-white.svg" alt="student-assessment" />
+              ارزیابی دانش آموز
+            </a>
+            <a href="parentAssesment.html" class="nav-item">
+              <img src="img/parent-assessment.svg" alt="parent-assessment" />
+              ارزیابی والدین
+            </a>
+            <a href="managmentInterview.html" class="nav-item">
+              <img src="img/managment-interview.svg" alt="managment-interview" />
+              مصاحبه مدیریت
+            </a>
+            <a href="studentInfo.html" class="nav-item">
+              <img src="img/student-info.svg" alt="student-info" />
+              اطلاعات دانش آموزان
+            </a>
+            <a href="measurementForm.html" class="nav-item">
+              <img src="img/measurement system.svg" alt="measurement system" />
+              سامانه سنجش
+            </a>
+            <a href="satisfaction.html" class="nav-item">
+              <img src="img/satisfaction.svg" alt="satisfaction" />
+              رضایت نامه
+            </a>
+            <a href="financialForm.html" class="nav-item">
+              <img src="img/financial-form.svg" alt="financial-form" />
+              فرم مالی هیئت امنا
+            </a>
+          </div>
+          <div class="logout">
+            <img src="img/logout.svg" alt="logout" />
+            خروج از حساب کاربری
+          </div>
+        </nav>
+      </div>
+        <div class="row">
+          <div class="input-group">
+            <div class="right-group">
+              <label class="search-label">
+                <input
+                  type="text"
+                  placeholder="موضوع مورد نظر را جستجو کنید ... "
+                  class="input"
+                />
+              </label>
+            </div>
+            <div class="left-group">
+              <div class="icons">
+                <div class="icon-container">
+                  <img src="img/comment.svg" alt="comment" class="comment" />
+                </div>
+                <div class="icon-container">
+                  <img src="img/notification.svg" class="notification" alt="notification" />
+                </div>
+              </div>
+              <div class="profile-group">
+                <span class="name">امیر حسین اکبری</span>
+                <div class="profile-container">
+                  <img src="img/profile.svg" alt="profile" />
+                </div>
+                <div class="non-parent-register">
+                  <div class="selected-hidden-register">
+                    <h3 class="title">ثبت نامی ها</h3>
+    
+                    <div class="register">
+                      <div class="register-icon">
+                        <img src="img/profile.svg" alt="profile" />
+                      </div>
+                      <div class="text">
+                        <h5 class="name">پارسا اکبری</h5>
+                        <span class="detail">در سامانه سلاله ثبت نام کرد</span>
+                      </div>
+                      <div class="time-ago">
+                        <p class="number">4</p>
+                        دقیقه پیش
+                      </div>
+                    </div>
+                    <div class="register">
+                      <div class="register-icon">
+                        <img src="img/profile.svg" alt="profile"/>
+                      </div>
+                      <div class="text">
+                        <h5 class="name">پارسا اکبری</h5>
+                        <span class="detail">در سامانه سلاله ثبت نام کرد</span>
+                      </div>
+                      <div class="time-ago">
+                        <p class="number">4</p>
+                        دقیقه پیش
+                      </div>
+                    </div>
+                    <div class="register">
+                      <div class="register-icon">
+                        <img src="img/profile.svg" alt="profile" />
+                      </div>
+                      <div class="text">
+                        <h5 class="name">پارسا اکبری</h5>
+                        <span class="detail">در سامانه سلاله ثبت نام کرد</span>
+                      </div>
+                      <div class="time-ago">
+                        <p class="number">4</p>
+                        دقیقه پیش
+                      </div>
+                    </div>
+                    <div class="register">
+                      <div class="register-icon">
+                        <img src="img/profile.svg" alt="profile" />
+                      </div>
+                      <div class="text">
+                        <h5 class="name">پارسا اکبری</h5>
+                        <span class="detail">در سامانه سلاله ثبت نام کرد</span>
+                      </div>
+                      <div class="time-ago">
+                        <p class="number">4</p>
+                        دقیقه پیش
+                      </div>
+                    </div>
+                    <a href="registrationList.html" class="all-register">
+                      مشاهده همه ثبت نامی ها
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <nav class="navbar">
+            <div class="profile-container">
+              <img src="img/profile.svg" alt="profile" class="profile" />
+            </div>
+            <img src="img/logo.png" alt="logo" class="logo" />
+            <img src="img/hamberger-menue.svg" alt="hamberger-menue" class="menue" />
+          </nav>
+
+          <div class="src-group-container">
+            <div class="title-group">
+              <span class="title">فرم ارزیابی کودک</span>
+              <label class="search-label ">
+                  <input type="text" placeholder=" جستجو بر اساس کد ملی ..." class="input" />
+              </label> 
+            </div>    
+
+           <div class="data-group">
+              <div class="item">
+                  <div class="title">پایه درخواستی:</div>
+                  <div class="answer">ابتدایی پیش یک</div>
+              </div>
+              <div class="item">
+                  <div class="title">نام کودک:</div>
+                  <div class="answer">امیرحسین اکبری</div>
+              </div>
+              <div class="item">
+                  <div class="title">کدملی:</div>
+                  <div class="answer number">1361251020</div>
+              </div>
+          </div>  
+
+          <div class="question-group">
+             <div class="title">سوالات ارزیابی:</div>
+             
+            <div class="open-item">
+              <div class="line">
+                  <img src="img/plus.svg" class="show-svg" alt="plus">
+                  <div class="text">جسمی حرکتی</div>
+              </div>
+              <div class="hide-part pish-1">
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                          	می تواند روی خط مستقیم و با اندکی انحنا راه برود
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p class="number">
+                          	می تواند بین دو خط به فاصله 15س راه برود
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                         	می تواند روی نردبانی که بر زمین قرار داده شده، به عقب راه برود
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p class="number">
+                        	می تواند جفت پا از روی مانع 30س بپرد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند از ارتفاع 30س بپرد پایین
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                    	می تواند توپ را شوت کند
+                    </p>
+                  </div>
+                  </label>
+                  <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p class="number">
+                    	می تواند 2 بار روی پای برتر در یک نقطه لی لی کند
+                  </p>
+                </div>
+                  </label>
+                  <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p>
+                	می تواند توپ مینی هندبال را که از بالا رها شده را بگیرد
+                </p>
+              </div>
+                  </label>
+                  <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p class="number">
+              	می تواند 10 ثانیه روی یک پا ثابت بایستد
+              </p>
+            </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	میتواند در وضعیت گردو/شکستم، با چشم بسته جلو برود
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند توپ را برای فردی که در 2 متری اوست، پرتاب کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند به توپ در حال قل خوردن ضربه بزند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند به فاصله یک متری با توپ نشانه را بزند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند از قیچی استفاده کند و کاغذی که در دست دیگرش گرفته را ببرد
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند با نگاه کردن به دایره، آن را رسم کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                      	می تواند نخ کفشی را از 8 مهره به قطر 1.5س رد کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                      	می تواند دو نقطه به فاصله 10س را با یک خط صاف به هم وصل کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند خمیر بازی را روی میز پهن و دوباره گرد کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      	می تواند مداد را بین سه انگشت و شست بگیرد و با حرکت کلی دست، خط بکشد
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      	می تواند آب داخل لیوانی را به لیوان دیگر منتقل کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      	می تواند از انبر برای گرفتن اجسام نرم استفاده کند
+                      </p>
+                    </div>
+                  </label>
+                  <form class="score-group" data-type="error" data-message="اطلاعات ثبت نشد" data-title="شکست!">
+                      <div class="score-item">
+                          <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                          <input type="text" class="big-input" />
+                      </div>
+                      <div class="score-item">
+                          <label class="number">نمره از 10</label>
+                          <input type="text" class="small-input" />
+                      </div>
+                      <button class="submit">ثبت</button>
+                   </form>
+              </div>
+              <div class="hide-part pish-2">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند به راحتی روی خط مستقیم جلو و عقب برود
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند 6 قدم روی پنجه های پاهایش راه برود
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند 6 قدم روی پاشنه های پاهایش راه برود
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند مانند گربه و خرگوش راه برود
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند به خوبی در مسیر زیگزاگ بدود
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p class="number">
+                  	می تواند از ارتفاع 40س یک سکو، پایین بپرد
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p class="number">
+                  	می تواند 10 بار متوالی جفت پا جلو و عقب بپرد
+                </p>
+              </div>
+                </label>
+                <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p>
+                	می تواند بدون مکث از پله ها جفت پا بالا برود
+              </p>
+            </div>
+                </label>
+                <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <div class="question-text">
+            <p>
+              	می تواند بدون انحراف به طرفین، کله ملق بزند
+            </p>
+          </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند حرکات متناسب با یک موسیقی آرام را اجرا کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                     	می تواند حرکت شمع را به درستی انجام دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند حرکت سبد را به درستی انجام دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند حرکت گهواره را به درستی انجام دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند حرکت حلزون را به درستی انجام دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند حرکت سرسره را به درستی انجام دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند برای مدت طولانی در یک نقطه لی لی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	می تواند 1.5 متر به جلو لی لی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند توپ پلاستیکی را به راحتی دریافت و پرتاب کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	می تواند 3 ثانبه با چشم بسته روی یک پا بایستد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	می تواند هدفی را در 1.5 متری نشانه بگیرد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند با تغییر متوالی پاها از پله بالا برود
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                    	می تواند دور دست غیر غالبش را با مداد خط بکشد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند در امتداد خطی راست قیچی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند خط عمودی، افقی، مایل را از هر دو سمت رسم کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند با موچین، اشیاء ریز را جابجا کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                    	می تواند انواع پیچرا در مهره ها بچرخاند
+                    </p>
+                  </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+              <div class="hide-part aval">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        می تواند به پهلو راه برود
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      	می تواند در انواع مسیرهای مستقیم و مارپیچ و زیگزاگ، یورتمه، لی لی، پریدن را به درستی انجام دهد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند از ارتفاع 50س یک سکو، پایین بپرد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند با بدن خود اشکال و اعداد را بسازد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند به سمت عقب کله ملق بزند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p>
+                  		می تواند به درستی کله ملق پا باز و با جمع بزند
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p>
+                	می تواند با موسیقی های اندکی تند تر هم حرکات متناسب انجام دهد
+                </p>
+              </div>
+                </label>
+                <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p>
+                	می تواند حرکت شمع ایستاده را انجام دهد
+              </p>
+            </div>
+                </label>
+                <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <div class="question-text">
+            <p>
+            	می تواند حرکت شمع شکسته را انجام دهد
+            </p>
+          </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	برای یک دقیقه میتواند در یک نقطه لی لی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	می تواند 15 بار از ارتفاع 50 سانتی بالا و پایین بپرد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	می تواند هدفی را در 2 متری نشانه بگیرد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند نخ را به سرعت از ماکارونی لوله ای رد کند.
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند اشکال هندسی را با نگاه کردن به راحتی تقلید کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      تصاویر و اشکالی معنادار نقاشی می کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند داخل یک شکل را به خوبی رنگ کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	میتواند اوریگامی های ساده را در کنار مربی بسازد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند نقطه های متوالی را به هم وصل کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	می تواند یک پازل 35 تکه ای را بسازد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	کودک می تواند برتری های جانبی دست هایش را خودش تشخیص دهد
+                    </p>
+                  </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+            </div> 
+
+            <div class="open-item">
+              <div class="line">
+                  <img src="img/plus.svg" class="show-svg" alt="plus">
+                  <div class="text"> اجتماعی عواطف و هیجانات</div>
+              </div>
+              <div class="hide-part pish-1">
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                          	احساسات اصلی اش را برچسب می زند و می شناسد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                        	می تواند در بازی های وانمودی، هیجانات مثبت و منفی خود را بروز دهد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                        		می تواند از روی چهره و صدا احساسات اصلی را تشخیص دهد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                        	می تواند علت احساسات دیگران را حدس بزند
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	کودک توانایی بیان خواسته هایش را دارد
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                    	نام و جنسیت خود را می شناسد
+                    </p>
+                  </div>
+                  </label>
+                  <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p>
+                  	کودک بدون اضطراب از پدر و مادرش جدا می شود
+                  </p>
+                </div>
+                  </label>
+                  <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p>
+                 	کودک می تواند یک راه حل ساده برای مشکل پیش آمده، ارائه دهد
+                </p>
+              </div>
+                  </label>
+                  <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                    <div class="score-item">
+                        <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                        <input type="text" class="big-input" />
+                    </div>
+                    <div class="score-item">
+                        <label class="number">نمره از 10</label>
+                        <input type="text" class="small-input" />
+                    </div>
+                    <button class="submit">ثبت</button>
+                 </form>
+              </div>
+              <div class="hide-part pish-2">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	هفت احساس (شادی، غم، خشم، خوشحالی، ترس، علاقه، تعجب) را می شناسد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند جای شخصیت های داستان ها بیاندیشد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      	توجه عواقب رفتارهایش می شود و می تواند پیرامون آن صحبت کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	دستاورد های خود را با افتخار توصیف می کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	به تفاوت های افراد در احساسات و افکار، احترام می گذارد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p>
+                    	با کسانی که ناراحت شده اند، همدردی و برای رفع مشکل آنها راه حل پیشنهاد می دهند
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p>
+                  	مفاهیم نسبت های پدری، برادری، عمه، دایی و ... را متوجه می شود
+                </p>
+              </div>
+                </label>
+                <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p>
+                	می تواند از کلمات و گفتار برای بیان خواسته هایش استفاده کند
+              </p>
+            </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	محدوده محل سکونت و فضای آموزشی خود را می شناسد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <div class="question-text">
+                          <p>
+                            می تواند از خودش و دیگران پرتره بکشد
+                          </p>
+                        </div>
+                </label>
+                <label class="container">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                              <div class="question-text">
+                                <p>
+                                  	می تواند در حل مسائل اجتماعی ساده، راه حل ارائه کند
+                                </p>
+                              </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند در صحبت هایش از "سلام،" "خداحافظ"، "خواهش می کنم"، "متشکرم" و "ببخشید" در جای مناسب استفاده کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      <div class="question-text">
+        <p>
+          	برای استفاده از وسایل دیگران، اجازه می گیرد
+        </p>
+      </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند قصه گویی و شعر خوانی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      می تواند از کلمات نشان دهنده دوستی استفاده کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند در بازی های تخیلی و نمایشی شرکت کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                     	نام دوست مورد علاقه اش را بیان می کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	کودک از مسئولیت هایش در خانه و محیط آموزشی صحبت می کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                      	در امور اجتماعی می تواند 3 دستورالعمل متوالی را پیروی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	کودک قوانین فضاهای مختلف را یادآوری و رعایت می کند. (پارک، فروشگاه، وسایل نقلیه، ... )
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند قوانین یک بازی ساده را رعایت کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند بلندی صدای خود را در فضاهای مختلف کنترل کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند درباره هدف یک بازی صحبت کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند شغل های معروف و نقش کارگران را در بازی های نمایشی بازی کند
+                    </p>
+                  </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+              <div class="hide-part aval">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	احساس شرم و احساس گناه و احساس خجالت را می شناسد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        اولویت هایش را در بازی کردن می شناسد و درباره علاقه اش صحبت می کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      		می تواند برای کنترل هیجانات خود، اقدام مثبت کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند توانایی ها و ضعف های خود را به گونه ای واقع بینانه ارزیابی کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	احساسات دیگران را از روی چهره می شناسد و نسبت به آنها، پاسخ های مناسب می دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p>
+                    	می تواند زبان بدن دیگران را بخواند و متوجه احساسات آنها شود
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p>
+                 	میتواند احساس پشت یک رفتار را بفهمد
+                </p>
+              </div>
+                </label>
+                <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p>
+               	می توانند با لحن صدای خوشایند سخن بگوید
+              </p>
+            </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند کلماتی بیان کنند که علاقه اش را به دیگران نشان دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <div class="question-text">
+                          <p>
+                            	می تواند با صورت و بدن خود، ارتباط غیر کلامی برقرار کند
+                          </p>
+                        </div>
+                </label>
+                <label class="container">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                              <div class="question-text">
+                                <p>
+                                  	متوجه حریم افراد می شود
+                                </p>
+                              </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                     	برای صف بستن مشارکت می کند و قوانین آن را درک می کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      <div class="question-text">
+        <p>
+          	مسئولیت نگهداری و انضباط وسایل خود را به عهده می گیرد
+        </p>
+      </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	در هنگام صحبت با بزرگسال، تماس چشمی خود را حفظ می کند و آن را پیوسته برقرار نگه می دارد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	نقش انواع شغل ها را در بازی های وانمودی به خوبی بازی می کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	حداقل چهار دستور متوالی را درک و انجام می دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	قوانین هر فضا را را رعایت میکند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند درباره اهمیت قانون به طور مختصر صحبت کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند قوانین را تفسیرکند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند مسئولیت کارهای خود را به عهده بگیرد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می توان برای حل یک مساله اجتماعی ساده با کودک مذاکره و هم اندیشی کرد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند نقش دانش آموز، معلم، مدیر، افسران پلیس و مامورین آتش نشانی را توضیح دهد
+                    </p>
+                  </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+            </div> 
+
+            <div class="open-item">
+              <div class="line">
+                  <img src="img/plus.svg" class="show-svg" alt="plus">
+                  <div class="text">ذهنی،شناختی و فراشناختی</div>
+              </div>
+              <div class="hide-part pish-1">
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                          	یک شیء از سه شیء را که حذف شده باشد، فوراً به  یاد می آورد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p class="number">
+                          	می تواند در پاسخ به سوال: این جسم شبیه چیست، 2 مورد را بیان کند
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                        	می تواند دلایل ساده ای برای علت انجام کارهایش بیان کند
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                          	می تواند به سوالات مقایسه ای بین دو شکل، (شباهت ها وتفاوت ها) پاسخ دهد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند یک پازل 6 تکه ای را حل کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند اشیا را بر اساس مفاهیم مقایسه ای (کمّی) دسته بندی کند
+                    </p>
+                  </div>
+                  </label>
+                  <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p class="number">
+                    	می تواند تا 10 بشمارد
+                  </p>
+                </div>
+                  </label>
+                  <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p>
+                  	می تواند از انگشتانش برای شمارش استفاده کند
+                </p>
+              </div>
+                  </label>
+                  <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p>
+                	اشکال هندسی ساده را می تواند مقایسه و توصیف کند
+              </p>
+            </div>
+                  </label>
+                  <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <div class="question-text">
+            <p>
+            	دستوراتی در توالی سه مرحله ای را اجرا می کند
+            </p>
+          </div>
+                  </label>
+                  <label class="container">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        <div class="question-text">
+          <p>
+            	درباره حالت های مختلف مواد (جامد و مایع و..)  واندازه و دما و ... صحبت می کند. و تغییرات مواد را درک می کند
+          </p>
+        </div>
+                  </label>
+                  <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                    <div class="score-item">
+                        <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                        <input type="text" class="big-input" />
+                    </div>
+                    <div class="score-item">
+                        <label class="number">نمره از 10</label>
+                        <input type="text" class="small-input" />
+                    </div>
+                    <button class="submit">ثبت</button>
+                 </form>
+              </div>
+              <div class="hide-part pish-2">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                          یک شیء از سه شیء را که حذف شده باشد، فوراً به  یاد می آورد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند در پاسخ به سوال: این جسم شبیه چیست، 4 مورد را بیان کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند دلیل خودش را از انجام یک فعالیت بیان کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        می تواند دلایل خوب یا بد بودن کاری را از دیدگاه خودش بیان کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند به سوالات مقایسه ای بین دو شکل، (شباهت ها وتفاوت ها) پاسخ دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p>
+                    	دلیل می آورد و با شنیدن دلیل منطقی مجاب می شود
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p class="number">
+                  	می تواند یک پازل 8 تکه ای را حل کند
+                </p>
+              </div>
+                </label>
+                <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p class="number">
+                	می تواند 15 دقیقه متمرکز به یک فعالیت بپردازد
+              </p>
+            </div>
+                </label>
+                <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <div class="question-text">
+            <p class="number">
+              	تا 10 را می شمارد و تا 20 را طوطی وار بلد است
+            </p>
+          </div>
+                </label>
+                <label class="container">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        <div class="question-text">
+          <p class="number">
+            به صورت چشمی تعداد تا 3 شیء را فوراً بیان می کند
+          </p>
+        </div>
+                </label>
+                <label class="container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      <div class="question-text">
+        <p>
+          	می تواند شکلی هندسی را از میان چند شکل تشخیص دهد
+        </p>
+      </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند اشیا را بر اساس یک صفت طبقه بندی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                              <div class="question-text">
+                                <p>
+                                  	می تواند الگوی سه رنگی را ادامه دهد
+                                </p>
+                              </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند از دستورات چهار مرحله ای پیروی کند
+                    </p>
+                  </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+              <div class="hide-part aval">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                          یک شیء از سه شیء را که حذف شده باشد، فوراً به  یاد می آورد	یک شیء از شش شیء را که حذف شده باشد، فوراً به  یاد می آورد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	شماره ای از پدر یا مادرش را حفظ است
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                      	می تواند چندین کاربرد دیگر را به غیر از آنچه برای هر وسیله در نظر گرفته شده است، بیان کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند برای اثبات نظر خود، استدلال کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند پیامد ها را پیشبینی کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p class="number">
+                    	می تواند یک پازل 30 تکه ای را حل کند
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <div class="question-text">
+                <p class="number">
+                  	می تواند تا 20 دقیقه بر فعالیت مورد علاقه اش تمرکز کند
+                </p>
+              </div>
+                </label>
+                <label class="container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <div class="question-text">
+              <p class="number">
+                	می تواند دستور العمل 5  مرحله ای ساده را تبعیت کند
+              </p>
+            </div>
+                </label>
+                <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <div class="question-text">
+            <p class="number">
+              	اعداد را تا 20 درک می کند و تا 100 طوطی وار می شمارد
+            </p>
+          </div>
+                </label>
+                <label class="container">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        <div class="question-text">
+          <p class="number">
+            	به صورت چشمی تعداد تا 5 شیء را فوراً بیان می کند
+          </p>
+        </div>
+                </label>
+                <label class="container">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      <div class="question-text">
+        <p class="number">
+          	قبل و بعد یک عدد را (عدد کمتر از 10) بیان کند
+        </p>
+      </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p class="number">
+                    	می تواند از 10 تا 1 معکوس شمارش کند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                              <div class="question-text">
+                                <p class="number">
+                                  	می تواند 10 تا 10 تا شمارش کند تا 100
+                                </p>
+                              </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند با ترکیب اشکال، شکل جدید بسازد (تنگرام)
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند با چشم بسته، خصوصیات اشیاء پیچیده را با حواسش حدس بزند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	نام فصل ها و ماه ها را می داند
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند مراحل حل مساله اش را به طور مختصر توضیح دهد
+                    </p>
+                  </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+            </div> 
+
+            <div class="open-item">
+              <div class="line">
+                  <img src="img/plus.svg" class="show-svg" alt="plus">
+                  <div class="text">کلامی،زبان آموزی</div>
+              </div>
+              <div class="hide-part pish-1">
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p class="number">
+                          	می تواند 4 کلمه ای که شنیده به ترتیب تکرار کند
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p class="number">
+                          	میتواند جمله 12 هجایی را پس از شنیدن، تکرار کند
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox" >
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                          	در تلفظ صحیح کلمات، کمترین اشتباه را دارد
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                        	از روی تصاویر کتاب می تواند داستانش را بیان کند
+                        </p>
+                      </div>
+                  </label>
+                  <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند پیام کلی متن را درک کند
+                      </p>
+                    </div>
+                  </label>
+                  <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                    	می تواند خودش را با اسم و سن معرفی کند
+                    </p>
+                  </div>
+                  </label>
+                  <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                    <div class="score-item">
+                        <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                        <input type="text" class="big-input" />
+                    </div>
+                    <div class="score-item">
+                        <label class="number">نمره از 10</label>
+                        <input type="text" class="small-input" />
+                    </div>
+                    <button class="submit">ثبت</button>
+                 </form>
+              </div>
+              <div class="hide-part pish-2">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        زیر و بمی صدا و بلندی و کوتاهی آن را تشخیص می دهد و می تواند تقلید نماید 
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	می تواند 5 کلمه ای که شنیده به ترتیب تکرار کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	میتواند جمله 14 هجایی را پس از شنیدن، تکرار کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	قادر به دنبال کردن داستان کوتاه  است در حالی که تصویری به او نشان داده نشود
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	با شنیدن یک کلمه(مثلاً  "آب")، می تواند تعدادی کلمه مرتبط با آن را بیان کند ( لیوان، حمام، ...) 
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <div class="question-text">
+                  <p>
+                    کلمات هم آغاز را می تواند تشخیص دهد
+                  </p>
+                </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند نمایش از داستان داشته باشد (با تجلیات بدنی و چهره ای)
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند کلمات هم قافیه بسازد (حتی اگر بی معنی باشد)
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                      <div class="question-text">
+                        <p>
+                          	می تواند تفاوت ها را در دو تصویر تشخیص دهد
+                        </p>
+                      </div>
+                </label>
+                <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <div class="question-text">
+                          <p>
+                            	می تواند الگوها را تکرار کند
+                          </p>
+                        </div>
+                </label>
+                <label class="container">
+                          <input type="checkbox">
+                          <span class="checkmark"></span>
+                          <div class="question-text">
+                            <p>
+                              	نقطه چین ها را به هم وصل می کند و تصویر را تشخیص می دهد
+                            </p>
+                          </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	میتواند به سواالات ساده از یک داستان، پیرامون جستجوی عقاید پشت رفتار ها، صحبت کند. (چرا مامان خرسی دوست نداشت.... ؟ )
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <div class="question-text">
+            <p>
+            	بعد از شنیدن داستان می تواند چکیده و پیام اصلی آن را بیان کند
+            </p>
+          </div>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <div class="question-text">
+                    <p>
+                      	می تواند داستان نیمه تمامی را ادامه دهد
+                    </p>
+                  </div>
+                </label>
+                <label class="container">
+                          <input type="checkbox">
+                          <span class="checkmark"></span>
+                          <div class="question-text">
+                            <p>
+                              می تواند برای آنچه در ذهن دارد، نقاشی بکشد
+                            </p>
+                          </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+              <div class="hide-part aval">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	می تواند صدای خاصی را از از بین انواع صداها تشخیص دهد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	صدای خاصی را در کلمه ای شنیده، تشخیص می دهد
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p class="number">
+                        	6  کلمه را  که شنیده (بدون اهمیت ترتیب) تکرار می کند
+                      </p>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <div class="question-text">
+                      <p>
+                        	کلمه ای را که یک هجای آن حذف شده، حدس می زند. یا ادامه ی کلمه را با شنیدن هجای اول، بسازد
+                      </p>
+                    </div>
+                </label>
+                <form class="score-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+                  <div class="score-item">
+                      <label >توصیف کلی ارزیاب از کودک و ذکر تبصره ها</label>
+                      <input type="text" class="big-input" />
+                  </div>
+                  <div class="score-item">
+                      <label class="number">نمره از 10</label>
+                      <input type="text" class="small-input" />
+                  </div>
+                  <button class="submit">ثبت</button>
+               </form>
+              </div>
+            </div> 
+
+            <form class="button-group" data-type="success" data-message="اطلاعات با موفقیت ثبت شد" data-title="تبریک!">
+              <div class="name">نام مصاحبه کننده:
+                 <input type="text" class="input" />
+              </div>
+              <button type="submit" class="button">ثبت نهایی اطلاعات</button>
+            </form>
+          
+          </div>
+          
+          </div>
+                
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img alt="icon" class="success" />
+          <span class="modal-title"></span>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <button class="ok-button">باشه</button>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

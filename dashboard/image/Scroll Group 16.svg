@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374.712" height="811.271" viewBox="0 0 374.712 811.271">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="1720" y="1780" width="374.712" height="811.271" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_16" data-name="Scroll Group 16" transform="translate(-1720 -1780)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="Group_10930" data-name="Group 10930" transform="matrix(0.407, 0.914, -0.914, 0.407, 1892.363, 1261.084)">
+      <path id="Path_47264" data-name="Path 47264" d="M1506.435.018c-100.429,65.195-301.287,325.973-502.145,325.973S703,2.469,502.145.018,100.429,250.992,0,313.736v987.723H1506.435Z" transform="translate(643.561 -335.561) rotate(73)" fill="#00baba" opacity="0.2"/>
+      <g id="Wave" transform="translate(-306.584 1473.011) rotate(-116)">
+        <path id="Path_47265" data-name="Path 47265" d="M1506.435,1301.442c-100.429-65.194-301.287-325.973-502.145-325.973S703,1298.991,502.145,1301.442,100.429,1050.467,0,987.723V0H1506.435Z" transform="translate(44.426 186.782) rotate(8)" fill="#00baba" opacity="0.56"/>
+        <path id="Path_47266" data-name="Path 47266" d="M1506.435,1301.442c-100.429-65.194-301.287-325.973-502.145-325.973S703,1298.991,502.145,1301.442,100.429,1050.467,0,987.723V0H1506.435Z" transform="translate(169.511 -20.714) rotate(11)" fill="#00baba"/>
+      </g>
+    </g>
+  </g>
+</svg>

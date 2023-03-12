@@ -1,0 +1,318 @@
+@import 'font.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+body {
+  background-image: url('../image/register-bgc.jpg');  
+  background-repeat: no-repeat;  
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+input:focus {
+  outline-color: #00baba;
+}
+.Rectangle {
+  width: 80%;
+  box-shadow: 0 3px 60px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  justify-content: space-between;
+  margin:  auto;
+  transform: scale(0.9);
+  direction: rtl;
+}
+.Rectangle-right {
+  width: 45%;
+  text-align: center;
+  position: relative;
+}
+.Rectangle-left {
+  width: 55%;
+  text-align: center;
+  position: relative;
+}
+.Rectangle-right img {
+  width: 100%;
+}
+.Rectangle-right figure:nth-child(1) > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Rectangle-right figure:nth-child(2) > img {
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+.Rectangle-right > div {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  background-color: #c7efef;
+  border-radius: 50%;
+  margin: 5% auto;
+  position: relative;
+}
+.logo > img {
+  width: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.solaleh {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: IRANSansX-Medium;
+  color: #fff;
+}
+.responsive-logo {
+  display: none;
+  width: 100%;
+}
+.responsive-logo .logo {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 1% auto;
+  position: relative;
+}
+.responsive-logo .logo > img {
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.responsive-logo .solaleh {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: IRANSansX-Medium;
+  color: #fff;
+  text-align: center;
+}
+.Rectangle-left > #box {
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+.Rectangle-left #register {
+  color: #00baba;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 8% 0;
+  font-family: IRANSansX-Bold;
+}
+.Rectangle-left span {
+  text-align: right;
+  color: #2f2f2f;
+}
+.Rectangle-left span:nth-child(2) {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: IRANSansX-Bold;
+}
+.Rectangle-left span:nth-child(3) {
+  font-size: 1.1em;
+  margin: 2% 0 6%;
+  font-family: IRANSansX-Regular;
+}
+.Rectangle-left form {
+  display: flex;
+  flex-flow: column;
+}
+.Rectangle-left form .input-group {
+  height: 7vh;
+  display: flex;
+  margin: 0.3em 0;
+}
+.Rectangle-left form .input-group figure {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Rectangle-left form > .input-group input {
+  width: 80%;
+  height: 100%;
+  border: 1px solid #7a92af;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-family: IRANSansX-Regular;
+  text-align: right;
+  padding: 10px 60px;
+}
+.Rectangle-left form > .input-group input::placeholder {
+  color: #7a92af;
+}
+.Rectangle-left form > .input-group img {
+  position: absolute;
+  right: 25px;
+}
+.Rectangle-left form > .input-group .username {
+  width: 15px;
+}
+.Rectangle-left form > .input-group .phone {
+  width: 20px;
+}
+.Rectangle-left form > button {
+  color: #fff;
+  border-radius: 12px;
+  margin: 7.5% 0 7.5% 15%;
+  background-image: linear-gradient(to bottom, #00a3a3, #005d5d 134%);
+  border: none;
+  font-size: 1em;
+  font-family: IRANSansX-Medium;
+  font-weight: 500;
+  cursor: pointer;
+  width: 80%;
+  height: 7vh;
+}
+.Rectangle-left #box > #request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  width: 80%;
+  font-family: IRANSansX-Regular;
+}
+.Rectangle-left #request > a {
+  color: #00baba;
+  text-decoration: none;
+}
+.Rectangle-left #request > p {
+  color: #707070;
+  margin-left: 3%;
+}
+.Rectangle-left #register-help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 1% 5%;
+  border-radius: 12px;
+  margin: 3em 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to bottom, #fff, #f4f4f4);
+  font-size: 0.95em;
+  font-family: IRANSansX-Medium;
+  color: #00baba;
+}
+.Rectangle-left #register-help > img {
+  width: 15%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Rectangle {
+    width: 85%;
+  }
+  .Rectangle-left #register {
+    font-size: 1.7em;
+  }
+  .Rectangle-left span:nth-child(2) {
+    font-size: 1.35em;
+  }
+  .Rectangle-left span:nth-child(3) {
+    font-size: 0.95em;
+  }
+  .Rectangle-left form > .input-group input {
+    font-size: 0.8em;
+  }
+  .Rectangle-left form > .input-group .username {
+    width: 13px;
+  }
+  .Rectangle-left form > .input-group .phone {
+    width: 16px;
+  }
+  .Rectangle-left form > button,
+  .Rectangle-left #box > #request,
+  .Rectangle-left #register-help {
+    font-size: 0.8em;
+  }
+  .solaleh {
+    font-size: 1em;
+  }
+  .Rectangle-left form > .input-group input,
+  .Rectangle-left form > button,
+  .Rectangle-left #register-help,
+  .Rectangle-left #box > #request {
+    width: 100%;
+  }
+  .Rectangle-right {
+    width: 47%;
+  }
+  .Rectangle-left {
+    width: 53%;
+  }
+  .Rectangle-left #register-help {
+    padding: 2% 8%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  body {
+    background-image: url('../image/register-responsive.jpg');  
+  }
+  .column {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Rectangle {
+    background-color: #fff;
+    margin-top: -0.6em;
+  }
+  .Rectangle-right {
+    display: none;
+  }
+  .Rectangle-left {
+    width: 100%;
+  }
+  .responsive-logo {
+    display: block;
+  }
+  .Rectangle-left #register {
+    font-size: 1.5em;
+    margin: 5% 0;
+  }
+  .Rectangle-left span:nth-child(2) {
+    font-size: 1.1em;
+  }
+  .Rectangle-left span:nth-child(3) {
+    font-size: 0.8em;
+    margin: 2% 0 3%;
+  }
+  .Rectangle-left form > .input-group input {
+    font-size: 0.7em;
+  }
+  .Rectangle-left form > button,
+  .Rectangle-left #box > #request,
+  .Rectangle-left #register-help {
+    font-size: 0.7em;
+    border-radius: 8px;
+  }
+  .Rectangle-left #register-help {
+    padding: 1% 8%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .Rectangle {
+    width: 95%;
+  }
+}

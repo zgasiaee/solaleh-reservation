@@ -1,0 +1,73 @@
+.parent-info .select-level-page {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin: 4.5% auto 0;
+  position: absolute;
+  font-size: 0.8em;
+  padding-right: 6.5em;
+  bottom: 3vh;
+}
+.parent-info #interview {
+  bottom: 3vh;
+}
+
+.parent-info .select-level-page #next-level-page,
+.parent-info .select-level-page #previous-level-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row-reverse;
+  width: 110px;
+  height: 40px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.parent-info .select-level-page #next-level-page {
+  background-image: linear-gradient(to bottom, #00baba, #005d5d 163%);
+  color: #fff;
+}
+
+.parent-info .select-level-page #previous-level-page {
+  color: #838296;
+  border: solid 2px #d7dbec;
+  background-color: #fff;
+}
+
+.parent-info .select-level-page #next-level-page img,
+.parent-info .select-level-page #previous-level-page img {
+  height: 30%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .parent-info .select-level-page #next-level-page img,
+  .parent-info .select-level-page #previous-level-page img {
+    height: 25%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parent-info .select-level-page {
+    font-size: 0.68em;
+    padding-right: 0;
+    width: 88%;
+  }
+
+  .parent-info .select-level-page #next-level-page,
+  .parent-info .select-level-page #previous-level-page {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parent-info .select-level-page {
+    padding-right: 3em;
+  }
+
+  .parent-info #interview {
+    bottom: 8vh;
+  }
+}

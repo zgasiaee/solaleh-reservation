@@ -1,0 +1,159 @@
+@import 'font.css';
+@import 'right-blocks.css';
+@import 'left-blocks.css';
+@import 'solaleh-rectangle.css';
+@import 'select-register.css';
+@import 'child.css';
+
+.parent-info .form-item{
+  width: 100%;
+  min-height: 15vh;
+  text-align: right;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.02);
+  background-color: #fff;
+  font-family: IRANSansX-Regular;
+  margin: 0.6em 0;
+  padding: 2em 2.5em;
+  position: relative;
+}
+.parent-info .form-item .titel{
+   font-weight: bold;
+   font-size: 1.3em;
+   margin-bottom: 0.5em;
+}
+.parent-info .form-item .flex-item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    direction: rtl;
+    margin-top: 1em;
+}
+.parent-info .form-item .welcome-text{
+    font-size: 0.9em;
+    margin: 3px 0 0 30px;
+}
+.parent-info #parent-select{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: end;
+    margin-top: 20px;
+}
+.parent-info #parent-select  input{
+    display: none !important;
+}
+.parent-info #parent-select .row-parent{
+    display: flex;
+}
+.parent-info #parent-select  #father-select,
+.parent-info #parent-select #mother-select{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #7a92af;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.02);
+    margin: 0 1%;
+    padding: 0 1%;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+}
+.parent-info #father-select > img,
+.parent-info #mother-select > img{
+    width: 30%;
+    margin: 2% 0;
+}
+.parent-info #father-select > p,
+.parent-info #mother-select > p{
+    font-size: 0.9em;
+    margin: auto;
+}
+.flex-item .full{
+    width: 100%;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+}
+.select-box-container .textarea{
+   width: 100%;
+   padding: 0.3em 1.2em;
+   margin-bottom: 5em;
+   resize: none;
+   border: none;
+   font-family: IRANSansX-Regular;
+}
+.select-box-container .textarea::placeholder{
+    color: #d7dbec;
+    font-family: IRANSansX-Regular;
+ }
+.select-box-container .textarea:focus{
+    outline: none;  
+}
+.active-parent{
+    background-color:#00baba;
+    color:#fff;
+    border-color:#00eaea
+}
+
+
+@media only screen and (max-width: 1100px){
+
+    .parent-info #parent-select {
+        flex-direction: column;
+    }
+
+    .parent-info #parent-select .row-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent-info #parent-select  #father-select,
+    .parent-info #parent-select #mother-select{
+       margin: 0.5% 1%;
+    }
+
+    .parent-info .form-item .welcome-text{
+        font-size: 0.8em;
+        margin: 3px 0 10px 30px;
+    }
+
+    .parent-info #father-select > p,
+    .parent-info #mother-select > p{
+      font-size: 0.75em;
+    }
+
+    .parent-info .form-item .titel{
+        font-size: 1.15em;
+     }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .parent-info .form-item{
+        border-radius: 0;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .parent-info .form-item .welcome-text{
+        font-size: 0.75em;
+    }
+
+    .parent-info #father-select > p,
+    .parent-info #mother-select > p{
+      font-size: 0.7em;
+    }
+
+    .parent-info .form-item .titel{
+        font-size: 1em;
+     }
+
+     .parent-info #parent-select  #father-select,
+     .parent-info #parent-select #mother-select{
+        width: 115px;
+    }  
+
+}
+

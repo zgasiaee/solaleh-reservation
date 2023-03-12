@@ -1,0 +1,182 @@
+.register-info > .left-blocks {
+  width: 18%;
+  height: 97vh;
+  position: fixed;
+  left: 1vw;
+  background-color: #fff;
+  border-radius: 0.8em;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.02);
+  padding: 0.7% 0;
+  margin: 0.7% 0;
+  direction: rtl;
+  font-family: IRANSansX-Medium;
+}
+.register-info > .left-blocks > .left-blocks-close {
+  display: none;
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  cursor: pointer;
+}
+.levels {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0.8em;
+  padding: 0.3em 1.7em;
+  display: flex;
+  flex-direction: column;
+}
+.level,
+.blue-level,
+.active-level {
+  font-size: 0.88em;
+  height: 40vh;
+  display: flex;
+  align-items: flex-start;
+}
+.blue-level .first-level,
+.active-level .first-level {
+  color: #00baba;
+}
+.level .text-level,
+.blue-level .text-level ,
+.active-level .text-level{
+  display: flex;
+  flex-direction: column;
+}
+
+.level .text-level .last-level,
+.blue-level .text-level .last-level {
+  margin-top: 0.25em;
+}
+
+.level .last-level,
+.blue-level .last-level ,
+.active-level .last-level {
+  color: #999999;
+  font-size: 0.85em;
+}
+.circle-box {
+  position: relative;
+}
+.blue-level .circle-box::before,
+.active-level .circle-box::before ,
+.level .circle-box::before {
+  content: '';
+  position: absolute;
+  bottom: -2vh;
+  left: 60%;
+  width: 0.85vw;
+  height: 2px;
+  transform: rotate(90deg);
+  border-radius: 0.4em;
+}
+.blue-level .circle-box::before {
+  background-color: #00baba;
+}
+.level .circle-box::before,
+.active-level .circle-box::before {
+  background-color: #d7dbec;
+}
+.level:last-child .circle-box::before,
+.active-level:last-child .circle-box::before,
+.blue-level:last-child .circle-box::before {
+  display: none;
+}
+
+.active-circle {
+  width: 17px;
+  height: 17px;
+  margin-left: 1.4em;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #00baba;
+}
+
+.blue-circle,
+.circle {
+  width: 17px;
+  height: 17px;
+  margin-left: 1.4em;
+  border-radius: 50%;
+}
+
+.blue-circle {
+  background-color: #00baba;
+  border: 2px solid #00baba;
+}
+
+.circle {
+  background-color: #d7dbec;
+  border: 2px solid #d7dbec;
+}
+
+@media only screen and (max-width: 1200px) {
+    .register-info > .left-blocks{
+        width: 22%;
+    }
+    .levels{
+      padding: 0.7em 1.3em;
+    }
+   .blue-circle , .active-circle , .circle{
+     width: 13px;
+     height: 13px;
+     margin-left: 1.5em;
+   }
+   .level,
+   .active-level ,
+   .blue-level{
+      font-size: 0.7em;
+    }
+    .blue-level .circle-box::before,
+    .active-level .circle-box::before ,
+    .level .circle-box::before {
+       left: 65%;
+       width: 1.1vw;
+       bottom: -2.5vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+  .register-info > .left-blocks {
+     display: none;
+     width: 90%;
+     left: 5vw;
+     top: 2vh;
+  }
+
+  .register-info > .left-blocks > .left-blocks-close {
+    display: block;
+  }
+
+    .blue-level .circle-box::before,
+    .active-level .circle-box::before ,
+    .level .circle-box::before {
+       width: 2vw;
+       bottom: -2vh;
+    }
+
+    .level,
+   .active-level ,
+   .blue-level{
+      font-size: 0.8em;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .blue-level .circle-box::before,
+    .active-level .circle-box::before ,
+    .level .circle-box::before {
+       width: 3vw;
+       bottom: -2vh;
+    }
+
+}
+
+
+
+

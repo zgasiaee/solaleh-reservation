@@ -1,0 +1,65 @@
+@import 'levels.less';
+
+.src-group-container {
+  .src {
+    .type {
+      display: flex;
+      padding: 1em 0;
+      font-size: 1em;
+      border-bottom: 1px solid @lightGrey;
+      .color-text {
+        color: @green;
+        padding: 0 0.5em;
+      }
+      @media only screen and (max-width: 1000px) {
+        font-size: 0.78em;
+      }
+    }
+    .comment-group-container {
+      .comment-group {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid @lightGrey;
+        padding-bottom: 1em;
+        .comment-title {
+          color: @green;
+          font-size: 1em;
+          font-weight: 600;
+          display: flex;
+          margin-top: 1em;
+          margin-bottom: 0.5em;
+          img {
+            margin-left: 1em;
+            @media only screen and (max-width: 1000px) {
+              width: 8px;
+              margin-left: 0.7em;
+            }
+          }
+          @media only screen and (max-width: 1000px) {
+            font-size: 0.75em;
+          }
+        }
+        .comment {
+          font-size: 0.9em;
+          &:last-child {
+            border-bottom: none;
+          }
+          @media only screen and (max-width: 1000px) {
+            font-size: 0.7em;
+          }
+        }
+        .border-none {
+          border-bottom: none;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+      .mobile-border-none {
+        @media only screen and (max-width: 768px) {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

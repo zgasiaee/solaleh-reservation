@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f7fc;
+}
+
+.register-info {
+  display: flex;
+  flex-flow: row-reverse;
+  position: relative;
+}
+
+.register-info > .parent-info {
+  width: 60%;
+  position: absolute;
+  right: 20%;
+  margin-top: 0.8%;
+}
+
+#solaleh-rectangle {
+  width: 100%;
+  height: 8vh;
+  padding: 0 0.7em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #fff;
+  border-radius: 0.7em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#solaleh-rectangle > .menubar,
+#solaleh-rectangle > .logo,
+#solaleh-rectangle > .icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 2%;
+}
+
+#solaleh-rectangle > .menubar > img {
+  width: 1.6vw;
+  cursor: pointer;
+}
+
+#solaleh-rectangle > .logo > p {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-family: IRANSansX-Medium;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #131523;
+}
+
+#solaleh-rectangle > .icon {
+  justify-content: start;
+  position: relative;
+}
+
+#solaleh-rectangle > .icon:after {
+  content: '8';
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 50%;
+  background-color: #e12d2d;
+  position: absolute;
+  top: 48%;
+  left: 145%;
+  text-align: center;
+  font-size: 0.5vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+#solaleh-rectangle > .icon > img {
+  width: 1.1vw;
+  margin: 0 20%;
+  cursor: pointer;
+}
+
+#solaleh-rectangle > .icon > img:nth-child(2) {
+  margin-left: 30%;
+}
+
+#solaleh-rectangle > picture {
+  display: none;
+  height: 55%;
+}
+
+#solaleh-rectangle > picture > img {
+  width: 65px;
+}
+
+#solaleh-rectangle > #register-level-see {
+  display: none;
+  width: 80vw;
+  height: 40%;
+  border-top: 1.5px solid #eaeaea;
+  cursor: pointer;
+  font-family: IRANSansX-Medium;
+  font-size: 0.75em;
+}
+
+#solaleh-rectangle > #register-level-see > img {
+  width: 2%;
+  cursor: pointer;
+}
+
+@media all and (max-width: 767px) {
+
+  #solaleh-rectangle > .menubar > img {
+    filter: invert(48%) sepia(53%) saturate(2736%) hue-rotate(146deg)
+      brightness(101%) contrast(101%);
+    width: 25px;
+  }
+
+  .register-info > .parent-info {
+    width: 100%;
+    margin-top: 0;
+    height: 100vw;
+    right: 0;
+  }
+
+  .parent-info #solaleh-rectangle {
+    justify-content: space-around;
+    height: 19vh;
+  }
+
+  .parent-info #solaleh-rectangle > .icon,
+  .parent-info #solaleh-rectangle > .logo > p {
+    display: none;
+  }
+
+  .parent-info #solaleh-rectangle > .menubar,
+  .parent-info #solaleh-rectangle > .logo {
+    height: 55%;
+  }
+
+  .parent-info #solaleh-rectangle > picture {
+    display: block;
+  }
+
+  .parent-info #solaleh-rectangle > #register-level-see {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .register-info > .parent-info {
+    width: 56%;
+  }
+  #solaleh-rectangle > .logo {
+    align-items: center;
+  }
+
+  #solaleh-rectangle > .logo > p {
+    font-size: 0.8em;
+  }
+
+  #solaleh-rectangle > .logo > img {
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .register-info > .parent-info {
+    width: 52%;
+    right: 24%;
+  }
+  #solaleh-rectangle {
+    height: 6vh;
+  }
+  #solaleh-rectangle > .logo {
+    align-items: center;
+  }
+  #solaleh-rectangle > .logo > img {
+    height: 80%;
+  }
+  #solaleh-rectangle > .logo > p {
+    font-size: 0.8em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #solaleh-rectangle > .menubar > img {
+    width: 22px;
+  }
+
+  .parent-info #solaleh-rectangle > #register-level-see {
+    font-size: 0.7em;
+  }
+
+  #solaleh-rectangle > #register-level-see > img {
+    width: 3%;
+    cursor: pointer;
+  }
+
+  #solaleh-rectangle > picture > img {
+    width: 55px;
+    margin-top: 0.3em;
+  }
+}

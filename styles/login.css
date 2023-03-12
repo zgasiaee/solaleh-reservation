@@ -1,0 +1,309 @@
+@font-face {
+  font-family: IRANSansXBold;
+  src: url('../font//woff2/IRANSansX-Bold.woff2') format('woff2'), url('../font//woff2/IRANSansX-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansXBlack;
+  src: url('../font//woff2/IRANSansX-Black.woff2') format('woff2'), url('../font//woff2/IRANSansX-Black.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansXLight;
+  src: url('../font//woff2/IRANSansX-Light.woff2') format('woff2'), url('../font//woff2/IRANSansX-Light.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansXMedium;
+  src: url('../font//woff2/IRANSansX-Medium.woff2') format('woff2'), url('../font//woff2/IRANSansX-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansXRegular;
+  src: url('../font//woff2/IRANSansX-Regular.woff2') format('woff2'), url('../font//woff2/IRANSansX-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: IRANSansXThin;
+  src: url('../font//woff2/IRANSansX-Thin.woff2') format('woff2'), url('../font//woff2/IRANSansX-Thin.woff') format('woff');
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d7dbec;
+  direction: rtl;
+  font-family: IRANSansXMedium;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url('../img/login-background.png') center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 450px) {
+  body {
+    background: url('../img/responsive-login.png') center / cover no-repeat;
+  }
+}
+.card {
+  width: 32%;
+  min-height: 91%;
+  background-color: #f4f7fc;
+  border-radius: 0.75em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+.card .parent-logo {
+  width: 50%;
+}
+.card .parent-logo .logo {
+  width: 100%;
+}
+.card .circle {
+  position: absolute;
+  left: -10px;
+  top: 70px;
+  transform: rotate(90deg);
+  height: 20px;
+  width: 40px;
+  border-radius: 150px 150px 0 0;
+  background-color: #d7dbec;
+}
+.card .text {
+  color: #00baba;
+}
+.card .bold {
+  font-weight: bold;
+  margin-top: -1.8rem;
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .card .bold {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card .bold {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .card .bold {
+    font-size: 1rem;
+    margin-top: -1rem;
+  }
+}
+.card .normal {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: IRANSansXRegular;
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .card .normal {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card .normal {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .card .normal {
+    font-size: 0.8rem;
+  }
+}
+.card .label {
+  position: relative;
+  width: 65%;
+  margin-top: 0.5em;
+}
+.card .label::before {
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+.card .label .input {
+  border: none;
+  width: 100%;
+  padding: 1em 0;
+  background-color: #d7dbec;
+  border-radius: 0.5em;
+  padding-right: 2.8rem;
+  font-family: IRANSansXRegular;
+}
+.card .label .input::placeholder {
+  color: #7a92af;
+  font-family: IRANSansXRegular;
+}
+@media only screen and (max-width: 768px) {
+  .card .label .input::placeholder {
+    font-size: 0.8em;
+  }
+}
+.card .label .input:focus {
+  outline: none;
+}
+.card .label .password-icon {
+  width: 17px;
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  cursor: pointer;
+}
+.card .label .password-icon:hover {
+  width: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .card .label {
+    width: 75%;
+  }
+}
+.card .username-label::before {
+  background: url('../img/person.svg') center / contain no-repeat;
+}
+.card .password-label::before {
+  background: url('../img/lock.svg') center / contain no-repeat;
+}
+.card .container {
+  position: relative;
+  height: 4%;
+  font-size: 0.9em;
+  margin: 1.5em 0;
+  display: flex;
+  align-items: center;
+  padding-right: 2.5em;
+  cursor: pointer;
+  user-select: none;
+}
+.card .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.card .container input:checked ~ .checkmark {
+  background-color: #00baba;
+  border: none;
+}
+.card .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.card .container .checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 0.3em;
+  border: 1px solid #7a92af;
+}
+.card .container .checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 2px;
+  width: 8px;
+  height: 17px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 768px) {
+  .card .container .checkmark {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card .container {
+    font-size: 0.7em;
+  }
+}
+.card .submit {
+  background-color: #e99d7b;
+  border-radius: 0.5em;
+  border: none;
+  color: #f4f7fc;
+  width: 65%;
+  padding: 0.35em 0;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-family: IRANSansXRegular;
+}
+@media only screen and (max-width: 768px) {
+  .card .submit {
+    width: 75%;
+    font-size: 1rem;
+  }
+}
+.card .purple-circle {
+  width: 35px;
+  height: 35px;
+  border: 6px solid #9575cd;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10%;
+  left: 34%;
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .card .purple-circle {
+    left: 28%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card .purple-circle {
+    left: 18%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card .purple-circle {
+    bottom: 15%;
+  }
+}
+.card .copyright-text {
+  font-size: 0.7em;
+  margin: 1rem 0;
+}
+@media only screen and (max-width: 768px) {
+  .card .copyright-text {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .card .copyright-text {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card {
+    min-height: 75%;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .card {
+    min-height: 85%;
+  }
+}

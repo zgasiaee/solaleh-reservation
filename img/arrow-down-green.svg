@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.267" height="8.793" viewBox="0 0 15.267 8.793">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00baba;
+      }
+    </style>
+  </defs>
+  <path id="fi-rr-caret-down" class="cls-1" d="M6.568,9H19.527a1.159,1.159,0,0,1,.811,1.982L13.871,17.45a1.159,1.159,0,0,1-1.646,0L5.757,10.982A1.159,1.159,0,0,1,6.568,9Z" transform="translate(-5.414 -9)"/>
+</svg>

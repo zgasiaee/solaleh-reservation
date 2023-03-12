@@ -1,0 +1,230 @@
+@import 'reset.less';
+
+body {
+  background: url('../img/login-background.png') center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (max-width: 450px) {
+    background: url('../img/responsive-login.png') center / cover no-repeat;
+  }
+}
+.card {
+  width: 32%;
+  min-height: 91%;
+  background-color: @white;
+  border-radius: 0.75em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+  .parent-logo {
+    width: 50%;
+    .logo {
+      width: 100%;
+    }
+  }
+  .circle {
+    position: absolute;
+    left: -10px;
+    top: 70px;
+    transform: rotate(90deg);
+    height: 20px;
+    width: 40px;
+    border-radius: 150px 150px 0 0;
+    background-color: @lightGrey;
+  }
+  .text {
+    color: @green;
+  }
+  .bold {
+    font-weight: bold;
+    margin-top: -1.8rem;
+    font-size: 1.8rem;
+    @media only screen and (max-width: 1200px) and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+    @media only screen and (max-width: 380px) {
+      font-size: 1rem;
+      margin-top: -1rem;
+    }
+  }
+  .normal {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: IRANSansXRegular;
+    @media only screen and (max-width: 1200px) and (min-width: 768px) {
+      font-size: 1.1rem;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media only screen and (max-width: 380px) {
+      font-size: 0.8rem;
+    }
+  }
+  .label {
+    position: relative;
+    width: 65%;
+    margin-top: 0.5em;
+    &::before {
+      content: '';
+      position: absolute;
+      right: 15px;
+      top: 0;
+      bottom: 0;
+      width: 15px;
+    }
+    .input {
+      border: none;
+      width: 100%;
+      padding: 1em 0;
+      background-color: @lightGrey;
+      border-radius: 0.5em;
+      padding-right: 2.8rem;
+      font-family: IRANSansXRegular;
+      &::placeholder {
+        color: @darkGrey;
+        font-family: IRANSansXRegular;
+        @media only screen and (max-width: 768px) {
+          font-size: 0.8em;
+        }
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .password-icon {
+      width: 17px;
+      position: absolute;
+      left: 15px;
+      top: 16px;
+      cursor: pointer;
+      &:hover {
+        width: 18px;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      width: 75%;
+    }
+  }
+  .username-label::before {
+    background: url('../img/person.svg') center / contain no-repeat;
+  }
+  .password-label::before {
+    background: url('../img/lock.svg') center / contain no-repeat;
+  }
+  .container {
+    position: relative;
+    height: 4%;
+    font-size: 0.9em;
+    margin: 1.5em 0;
+    display: flex;
+    align-items: center;
+    padding-right: 2.5em;
+    cursor: pointer;
+    user-select: none;
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+      &:checked ~ .checkmark {
+        background-color: @green;
+        border: none;
+      }
+      &:checked ~ .checkmark:after {
+        display: block;
+      }
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 0.3em;
+      border: 1px solid @darkGrey;
+      &:after {
+        content: '';
+        position: absolute;
+        display: none;
+        left: 9px;
+        top: 2px;
+        width: 8px;
+        height: 17px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+      @media only screen and (max-width: 768px) {
+        height: 20px;
+        width: 20px;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 0.7em;
+    }
+  }
+  .submit {
+    background-color: @lightRed;
+    border-radius: 0.5em;
+    border: none;
+    color: @white;
+    width: 65%;
+    padding: 0.35em 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: IRANSansXRegular;
+    @media only screen and (max-width: 768px) {
+      width: 75%;
+      font-size: 1rem;
+    }
+  }
+  .purple-circle {
+    width: 35px;
+    height: 35px;
+    border: 6px solid #9575cd;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10%;
+    left: 34%;
+    @media only screen and (max-width: 992px) and (min-width: 768px) {
+      left: 28%;
+    }
+    @media only screen and (max-width: 768px) {
+      left: 18%;
+    }
+    @media only screen and (max-width: 576px) {
+      bottom: 15%;
+    }
+  }
+  .copyright-text {
+    font-size: 0.7em;
+    margin: 1rem 0;
+    @media only screen and (max-width: 768px) {
+      font-size: 0.6rem;
+    }
+    @media only screen and (max-width: 380px) {
+      font-size: 0.5rem;
+    }
+  }
+  @media only screen and (max-width: 992px) and (min-width: 768px) {
+    width: 45%;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 65%;
+  }
+  @media only screen and (max-width: 576px) {
+    min-height: 75%;
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 768px) {
+    min-height: 85%;
+  }
+}
